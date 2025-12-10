@@ -1,5 +1,6 @@
 import HomeEducation from './HomeEducation';
 import HomeHero from './HomeHero';
+import HomeProjects from './HomeProjects';
 import HomeWork from './HomeWork';
 
 const Home = () => {
@@ -15,7 +16,13 @@ const Home = () => {
 
             <HomeWork />
 
+            {/* TODO: Create a "Tech Stack" section with a lsit of each technology I use with their name and respective brand logo. */}
+
             <HomeEducation />
+
+            <HomeProjects />
+
+            {/* TODO: Add footer with copyright and automatic-up-to-date expiring date */}
         </>
     );
 };
