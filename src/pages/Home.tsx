@@ -1,6 +1,7 @@
 import HomeEducation from './HomeEducation';
 import HomeHero from './HomeHero';
 import HomeProjects from './HomeProjects';
+import HomeTechStack from './HomeTechStack';
 import HomeWork from './HomeWork';
 
 const Home = () => {
@@ -12,13 +13,17 @@ const Home = () => {
 
     return (
         <>
+            {/* TODO: Create a small header with a navbar to help keyboard user navigate the site more quickly. */}
+            {/* TODO: Add switch light/dark mode in header. */}
+            {/* TODO: Add toggle english/french mode in header ? */}
+
             <HomeHero />
 
             <HomeWork />
 
-            {/* TODO: Create a "Tech Stack" section with a lsit of each technology I use with their name and respective brand logo. */}
-
             <HomeEducation />
+
+            <HomeTechStack />
 
             <HomeProjects />
 

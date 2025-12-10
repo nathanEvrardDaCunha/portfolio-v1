@@ -3,7 +3,7 @@ const HomeEducation = () => {
     // TODO: Match the work description of each job with the work description on my portfolio
     return (
         <section>
-            <h2>Work</h2>
+            <h2>Education</h2>
 
             <article>
                 {/* TODO: Replace alt proper image description. */}
