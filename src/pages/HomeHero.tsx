@@ -4,13 +4,11 @@ const HomeHero = () => {
     return (
         <section className="mx-auto max-w-3xl px-8 py-16">
             <div className="flex flex-col gap-8">
-                <div>
-                    {/* TODO: Add clean image about myself */}
-                    {/* TODO: Replace alt proper image description. */}
-                    {/* TODO: Replace src with proper image. */}
-                    {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                    <img src="https://picsum.photos/200/260" alt="Alt img" />
-                </div>
+                {/* TODO: Add clean image about myself */}
+                {/* TODO: Replace alt proper image description. */}
+                {/* TODO: Replace src with proper image. */}
+                {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
+                <img src="https://picsum.photos/200/260" className="aspect-auto h-fit w-fit" alt="Alt img" />
 
                 <div className="flex flex-col gap-5">
                     <h1 className="text-2xl font-bold text-neutral-950 dark:text-neutral-50">Hi Nathan here.</h1>
