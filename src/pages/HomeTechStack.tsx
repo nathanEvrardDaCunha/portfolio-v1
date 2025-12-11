@@ -1,100 +1,143 @@
+import UIGitIcon from '../components/icons/UIGitIcon';
+import UIJavaScriptIcon from '../components/icons/UIJavaScriptIcon';
+import UINodeIcon from '../components/icons/UINodeIcon';
+
 const HomeTechStack = () => {
     return (
-        <section>
-            <h2>Tech Stack</h2>
+        <section className="mx-auto max-w-3xl px-8 pb-16">
+            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Tech Stack</h2>
 
-            <h3>Front End</h3>
+            <div className="mb-8 flex flex-col gap-4">
+                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Front End</h3>
 
-            <ul>
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                <ul className="flex flex-row flex-wrap gap-6">
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>JavaScript</li>
-            </ul>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIJavaScriptIcon />
+                        <p>JavaScript</p>
+                    </li>
+                </ul>
+            </div>
 
-            <h3>Back End</h3>
+            <div className="mb-8 flex flex-col gap-4">
+                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Back End</h3>
 
-            <ul>
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+                <ul className="flex flex-row flex-wrap gap-6">
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UINodeIcon />
+                        <p>Node.Js</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UINodeIcon />
+                        <p>Node.Js</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UINodeIcon />
+                        <p>Node.Js</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UINodeIcon />
+                        <p>Node.Js</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UINodeIcon />
+                        <p>Node.Js</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UINodeIcon />
+                        <p>Node.Js</p>
+                    </li>
+                </ul>
+            </div>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+            <div className="flex flex-col gap-4">
+                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Tools</h3>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
+                <ul className="flex flex-row flex-wrap gap-6">
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIGitIcon />
+                        <p>Git</p>
+                    </li>
 
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Node</li>
-            </ul>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIGitIcon />
+                        <p>Git</p>
+                    </li>
 
-            <h3>Tools</h3>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIGitIcon />
+                        <p>Git</p>
+                    </li>
 
-            <ul>
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-
-                {/* TODO: Add relevant technology brand icon to each <li>*/}
-                <li>Docker</li>
-            </ul>
+                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIGitIcon />
+                        <p>Git</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     );
 };
