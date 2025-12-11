@@ -1,5 +1,7 @@
+import { Globe } from 'lucide-react';
 import UIGitIcon from '../components/icons/UIGitIcon';
 import UINodeIcon from '../components/icons/UINodeIcon';
+import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 
 const HomeProjects = () => {
     // TODO: Showcase Cris'Alie website and emphasize it's a for professional purpose.
@@ -62,23 +64,21 @@ const HomeProjects = () => {
 
                     <div className="flex flex-row gap-2">
                         {/* TODO: Add link to this project live demo if there's one. */}
-                        {/* TODO: Add Globe/Internet icon. */}
                         <a
                             href="#"
                             className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
                         >
-                            <UINodeIcon className="h-4 w-4 text-neutral-50" />
+                            <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">Website</p>
                         </a>
 
                         {/* TODO: Add link to this project public Github repository if there's one. */}
-                        {/* TODO: Add Github icon. */}
                         <a
                             href="#"
                             className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
                         >
-                            <UIGitIcon className="h-4 w-4 text-neutral-50" />
-                            <p className="text-[12px] font-medium text-neutral-50">Source</p>
+                            <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
+                            <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
                         </a>
                     </div>
                 </article>
@@ -135,23 +135,21 @@ const HomeProjects = () => {
 
                     <div className="flex flex-row gap-2">
                         {/* TODO: Add link to this project live demo if there's one. */}
-                        {/* TODO: Add Globe/Internet icon. */}
                         <a
                             href="#"
                             className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
                         >
-                            <UINodeIcon className="h-4 w-4 text-neutral-50" />
+                            <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">Website</p>
                         </a>
 
                         {/* TODO: Add link to this project public Github repository if there's one. */}
-                        {/* TODO: Add Github icon. */}
                         <a
                             href="#"
                             className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
                         >
-                            <UIGitIcon className="h-4 w-4 text-neutral-50" />
-                            <p className="text-[12px] font-medium text-neutral-50">Source</p>
+                            <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
+                            <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
                         </a>
                     </div>
                 </article>
@@ -208,23 +206,21 @@ const HomeProjects = () => {
 
                     <div className="flex flex-row gap-2">
                         {/* TODO: Add link to this project live demo if there's one. */}
-                        {/* TODO: Add Globe/Internet icon. */}
                         <a
                             href="#"
                             className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
                         >
-                            <UINodeIcon className="h-4 w-4 text-neutral-50" />
+                            <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">Website</p>
                         </a>
 
                         {/* TODO: Add link to this project public Github repository if there's one. */}
-                        {/* TODO: Add Github icon. */}
                         <a
                             href="#"
                             className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
                         >
-                            <UIGitIcon className="h-4 w-4 text-neutral-50" />
-                            <p className="text-[12px] font-medium text-neutral-50">Source</p>
+                            <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
+                            <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
                         </a>
                     </div>
                 </article>
