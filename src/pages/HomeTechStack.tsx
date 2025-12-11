@@ -1,6 +1,18 @@
+import UICssIcon from '../components/icons/UICssIcon';
+import UIDockerIcon from '../components/icons/UIDockerIcon';
+import UIExpressIcon from '../components/icons/UIExpressIcon';
+import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 import UIGitIcon from '../components/icons/UIGitIcon';
+import UIHtmlIcon from '../components/icons/UIHtmlIcon';
 import UIJavaScriptIcon from '../components/icons/UIJavaScriptIcon';
+import UILinuxIcon from '../components/icons/UILinuxIcon';
+import UIMySQLIcon from '../components/icons/UIMySQLIcon';
 import UINodeIcon from '../components/icons/UINodeIcon';
+import UIPostgreSQLIcon from '../components/icons/UIPostgreSQLIcon';
+import UIReactIcon from '../components/icons/UIReactIcon';
+import UISassIcon from '../components/icons/UISassIcon';
+import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
+import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
 
 const HomeTechStack = () => {
     return (
@@ -11,58 +23,51 @@ const HomeTechStack = () => {
                 <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Front End</h3>
 
                 <ul className="flex flex-row flex-wrap gap-6">
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    <li className="flex flex-row gap-3">
+                        <UIReactIcon />
+                        <p>React</p>
+                    </li>
+
+                    <li className="flex flex-row gap-3">
+                        <UITypeScriptIcon />
+                        <p>TypeScript</p>
+                    </li>
+
                     <li className="flex flex-row gap-3">
                         <UIJavaScriptIcon />
                         <p>JavaScript</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
-                        <p>JavaScript</p>
+                        <UITailwindCSSIcon />
+                        <p>Tailwind CSS</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
-                        <p>JavaScript</p>
+                        <UISassIcon />
+                        <p>SASS/SCSS</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
-                        <p>JavaScript</p>
+                        <UIHtmlIcon />
+                        <p>HTML5</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
-                        <p>JavaScript</p>
+                        <UICssIcon />
+                        <p>CSS3</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    {/* TODO: Add "monitor-smartphone" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
                         <UIJavaScriptIcon />
-                        <p>JavaScript</p>
+                        <p>Responsive Design</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    {/* TODO: Add "accessibility" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
                         <UIJavaScriptIcon />
-                        <p>JavaScript</p>
-                    </li>
-
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
-                    <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
-                        <p>JavaScript</p>
-                    </li>
-
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
-                    <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
-                        <p>JavaScript</p>
+                        <p>Accessibility</p>
                     </li>
                 </ul>
             </div>
@@ -71,40 +76,36 @@ const HomeTechStack = () => {
                 <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Back End</h3>
 
                 <ul className="flex flex-row flex-wrap gap-6">
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
                         <UINodeIcon />
                         <p>Node.Js</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UINodeIcon />
-                        <p>Node.Js</p>
+                        <UIExpressIcon />
+                        <p>Express</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    {/* TODO: Add "server-cog" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
                         <UINodeIcon />
-                        <p>Node.Js</p>
+                        <p>API RESTful</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UINodeIcon />
-                        <p>Node.Js</p>
+                        <UIPostgreSQLIcon />
+                        <p>PostgreSQL</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UINodeIcon />
-                        <p>Node.Js</p>
+                        <UIMySQLIcon />
+                        <p>MySQL</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
+                    {/* TODO: Add "database" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
                         <UINodeIcon />
-                        <p>Node.Js</p>
+                        <p>SQL</p>
                     </li>
                 </ul>
             </div>
@@ -113,28 +114,24 @@ const HomeTechStack = () => {
                 <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Tools</h3>
 
                 <ul className="flex flex-row flex-wrap gap-6">
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
                         <UIGitIcon />
                         <p>Git</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIGitIcon />
-                        <p>Git</p>
+                        <UIGitHubIcon />
+                        <p>GitHub</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIGitIcon />
-                        <p>Git</p>
+                        <UIDockerIcon />
+                        <p>Docker</p>
                     </li>
 
-                    {/* TODO: Add relevant technology brand icon to each <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIGitIcon />
-                        <p>Git</p>
+                        <UILinuxIcon />
+                        <p>Linux</p>
                     </li>
                 </ul>
             </div>
