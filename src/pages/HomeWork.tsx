@@ -31,7 +31,7 @@ const HomeWork = () => {
 
                         <p className="text-base text-neutral-700 dark:text-neutral-300">Internship as Web Developer</p>
 
-                        <ul className="flex list-inside list-disc flex-col">
+                        <ul className="ml-4 flex list-outside list-disc flex-col">
                             <li>
                                 Design of an automated workflow (Zapier, JavaScript scripts) reducing the operational
                                 burden of the secretariat by 30%.

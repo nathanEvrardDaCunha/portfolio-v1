@@ -36,7 +36,7 @@ const HomeEducation = () => {
                             Software and network project manager
                         </p>
 
-                        <ul className="flex list-inside list-disc flex-col">
+                        <ul className="ml-4 flex list-outside list-disc flex-col">
                             <li>Full-stack development with TypeScript, React, Node.js and Express.</li>
                             <li>Relational databases: design, querying and administration (SQL, PostgreSQL, MySQL).</li>
                             <li>DevOps and collaboration: containerisation (Docker), versioning (Git, GitHub).</li>
