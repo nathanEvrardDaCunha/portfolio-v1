@@ -1,6 +1,4 @@
 import { Globe } from 'lucide-react';
-import UIGitIcon from '../components/icons/UIGitIcon';
-import UINodeIcon from '../components/icons/UINodeIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 
 const HomeProjects = () => {
@@ -12,7 +10,7 @@ const HomeProjects = () => {
             <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Featured projects</h2>
 
             <div className="flex flex-row flex-wrap gap-4">
-                <article className="min-w-3xs flex-1 rounded-lg border border-neutral-300 p-8 shadow-lg">
+                <article className="min-w-3xs flex-1 rounded-sm border border-neutral-300 p-8 shadow-md">
                     {/* TODO: Replace alt proper image description. */}
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
@@ -32,31 +30,31 @@ const HomeProjects = () => {
                         </p>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">React</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">Tailwind CSS</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">React</p>
                             </li>
                         </ul>
@@ -66,7 +64,7 @@ const HomeProjects = () => {
                         {/* TODO: Add link to this project live demo if there's one. */}
                         <a
                             href="#"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
+                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">Website</p>
@@ -75,7 +73,7 @@ const HomeProjects = () => {
                         {/* TODO: Add link to this project public Github repository if there's one. */}
                         <a
                             href="#"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
+                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
@@ -83,7 +81,7 @@ const HomeProjects = () => {
                     </div>
                 </article>
 
-                <article className="min-w-3xs flex-1 rounded-lg border border-neutral-300 p-8 shadow-lg">
+                <article className="min-w-3xs flex-1 rounded-sm border border-neutral-300 p-8 shadow-md">
                     {/* TODO: Replace alt proper image description. */}
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
@@ -103,31 +101,31 @@ const HomeProjects = () => {
                         </p>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">React</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">Tailwind CSS</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">React</p>
                             </li>
                         </ul>
@@ -137,7 +135,7 @@ const HomeProjects = () => {
                         {/* TODO: Add link to this project live demo if there's one. */}
                         <a
                             href="#"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
+                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">Website</p>
@@ -146,7 +144,7 @@ const HomeProjects = () => {
                         {/* TODO: Add link to this project public Github repository if there's one. */}
                         <a
                             href="#"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
+                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
@@ -154,7 +152,7 @@ const HomeProjects = () => {
                     </div>
                 </article>
 
-                <article className="min-w-3xs flex-1 rounded-lg border border-neutral-300 p-8 shadow-lg">
+                <article className="min-w-3xs flex-1 rounded-sm border border-neutral-300 p-8 shadow-md">
                     {/* TODO: Replace alt proper image description. */}
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
@@ -174,31 +172,31 @@ const HomeProjects = () => {
                         </p>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">React</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">Tailwind CSS</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
                             </li>
 
-                            <li className="rounded-lg bg-neutral-200 px-2 py-1">
+                            <li className="rounded-sm bg-neutral-200 px-2 py-1">
                                 <p className="text-[12px] font-medium text-neutral-950">React</p>
                             </li>
                         </ul>
@@ -208,7 +206,7 @@ const HomeProjects = () => {
                         {/* TODO: Add link to this project live demo if there's one. */}
                         <a
                             href="#"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
+                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">Website</p>
@@ -217,7 +215,7 @@ const HomeProjects = () => {
                         {/* TODO: Add link to this project public Github repository if there's one. */}
                         <a
                             href="#"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700"
+                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
