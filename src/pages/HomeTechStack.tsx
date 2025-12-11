@@ -1,3 +1,4 @@
+import { Accessibility, Database, MonitorSmartphone, ServerCog } from 'lucide-react';
 import UICssIcon from '../components/icons/UICssIcon';
 import UIDockerIcon from '../components/icons/UIDockerIcon';
 import UIExpressIcon from '../components/icons/UIExpressIcon';
@@ -58,15 +59,13 @@ const HomeTechStack = () => {
                         <p>CSS3</p>
                     </li>
 
-                    {/* TODO: Add "monitor-smartphone" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
+                        <MonitorSmartphone strokeWidth={1.5} />
                         <p>Responsive Design</p>
                     </li>
 
-                    {/* TODO: Add "accessibility" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UIJavaScriptIcon />
+                        <Accessibility strokeWidth={1.5} />
                         <p>Accessibility</p>
                     </li>
                 </ul>
@@ -78,7 +77,7 @@ const HomeTechStack = () => {
                 <ul className="flex flex-row flex-wrap gap-6">
                     <li className="flex flex-row gap-3">
                         <UINodeIcon />
-                        <p>Node.Js</p>
+                        <p>Node.js</p>
                     </li>
 
                     <li className="flex flex-row gap-3">
@@ -86,9 +85,8 @@ const HomeTechStack = () => {
                         <p>Express</p>
                     </li>
 
-                    {/* TODO: Add "server-cog" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UINodeIcon />
+                        <ServerCog strokeWidth={1.5} />
                         <p>API RESTful</p>
                     </li>
 
@@ -102,9 +100,8 @@ const HomeTechStack = () => {
                         <p>MySQL</p>
                     </li>
 
-                    {/* TODO: Add "database" icon to this <li>*/}
                     <li className="flex flex-row gap-3">
-                        <UINodeIcon />
+                        <Database strokeWidth={1.5} />
                         <p>SQL</p>
                     </li>
                 </ul>
