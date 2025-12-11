@@ -3,7 +3,7 @@ const HomeWork = () => {
     // TODO: Match the work description of each job with the work description on my portfolio
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Work</h2>
+            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Professional experiences</h2>
 
             <div className="flex flex-col gap-8">
                 <article className="flex flex-row gap-8">
@@ -17,96 +17,37 @@ const HomeWork = () => {
                     />
 
                     <div className="flex flex-col">
-                        <div className="flex flex-row gap-2">
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
+                        <div className="flex flex-row gap-1">
+                            <time dateTime="2022-02" className="text-[12px] text-neutral-700 dark:text-neutral-300">
+                                February 2022
                             </time>
                             <p className="text-[12px] text-neutral-700">-</p>
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
+                            <time dateTime="2022-05" className="text-[12px] text-neutral-700 dark:text-neutral-300">
+                                May 2022
                             </time>
                         </div>
 
-                        <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Company Name</h3>
+                        <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Institut ADIOS</h3>
 
-                        <p className="text-base text-neutral-700 dark:text-neutral-300">
-                            Job Title (Type Of Contract - ex: Intern)
-                        </p>
+                        <p className="text-base text-neutral-700 dark:text-neutral-300">Internship as Web Developer</p>
 
                         <ul className="flex list-inside list-disc flex-col">
-                            <li>Mission number 1 was about X.</li>
-                            <li>Mission number 1 was about X.</li>
-                            <li>Mission number 1 was about X.</li>
-                        </ul>
-                    </div>
-                </article>
+                            <li>
+                                Design of an automated workflow (Zapier, JavaScript scripts) reducing the operational
+                                burden of the secretariat by 30%.
+                            </li>
 
-                <article className="flex flex-row gap-8">
-                    {/* TODO: Replace alt proper image description. */}
-                    {/* TODO: Replace src with proper image. */}
-                    {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                    <img
-                        src="https://picsum.photos/46"
-                        alt="Alt img"
-                        className="aspect-square h-fit w-fit rounded-lg"
-                    />
+                            <li>
+                                Development of an interactive form with Tally, improving user experience and completion
+                                rate.
+                            </li>
 
-                    <div className="flex flex-col">
-                        <div className="flex flex-row gap-2">
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
-                            </time>
-                            <p className="text-[12px] text-neutral-700">-</p>
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
-                            </time>
-                        </div>
+                            <li>
+                                Visual redesign of WordPress articles and strategic integration of CTA to optimize
+                                conversion.
+                            </li>
 
-                        <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Company Name</h3>
-
-                        <p className="text-base text-neutral-700 dark:text-neutral-300">
-                            Job Title (Type Of Contract - ex: Intern)
-                        </p>
-
-                        <ul className="flex list-inside list-disc flex-col">
-                            <li>Mission number 1 was about X.</li>
-                            <li>Mission number 1 was about X.</li>
-                            <li>Mission number 1 was about X.</li>
-                        </ul>
-                    </div>
-                </article>
-
-                <article className="flex flex-row gap-8">
-                    {/* TODO: Replace alt proper image description. */}
-                    {/* TODO: Replace src with proper image. */}
-                    {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                    <img
-                        src="https://picsum.photos/46"
-                        alt="Alt img"
-                        className="aspect-square h-fit w-fit rounded-lg"
-                    />
-
-                    <div className="flex flex-col">
-                        <div className="flex flex-row gap-2">
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
-                            </time>
-                            <p className="text-[12px] text-neutral-700">-</p>
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
-                            </time>
-                        </div>
-
-                        <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Company Name</h3>
-
-                        <p className="text-base text-neutral-700 dark:text-neutral-300">
-                            Job Title (Type Of Contract - ex: Intern)
-                        </p>
-
-                        <ul className="flex list-inside list-disc flex-col">
-                            <li>Mission number 1 was about X.</li>
-                            <li>Mission number 1 was about X.</li>
-                            <li>Mission number 1 was about X.</li>
+                            <li>Mentorship of an intern on the company’s automation practices and workflows.</li>
                         </ul>
                     </div>
                 </article>
