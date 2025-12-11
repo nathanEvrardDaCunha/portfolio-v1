@@ -32,7 +32,7 @@ const HomeEducation = () => {
                             University Name of [Paris]
                         </h3>
 
-                        <p className="text-base text-neutral-700 dark:text-neutral-300">
+                        <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
                             [Diploma Type like Bachelor] in [Computer Science] in [Software Architecture]
                         </p>
 
