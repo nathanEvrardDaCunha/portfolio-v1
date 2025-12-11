@@ -4,7 +4,7 @@ const HomeEducation = () => {
 
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Education</h2>
+            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Degrees and training</h2>
 
             <div className="flex flex-col gap-8">
                 <article className="flex flex-row gap-8">
@@ -18,28 +18,28 @@ const HomeEducation = () => {
                     />
 
                     <div className="flex flex-col">
-                        <div className="flex flex-row gap-2">
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
+                        <div className="flex flex-row gap-1">
+                            <time dateTime="2021-09" className="text-[12px] text-neutral-700 dark:text-neutral-300">
+                                September 2021
                             </time>
                             <p className="text-[12px] text-neutral-700">-</p>
-                            <time dateTime="YYYY-MM-DD" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                YYYY-MM-DD
+                            <time dateTime="2024-09" className="text-[12px] text-neutral-700 dark:text-neutral-300">
+                                September 2024
                             </time>
                         </div>
 
                         <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
-                            University Name of [Paris]
+                            Higher School of Computer Genius (ESGI) of Paris
                         </h3>
 
                         <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
-                            [Diploma Type like Bachelor] in [Computer Science] in [Software Architecture]
+                            Software and network project manager
                         </p>
 
                         <ul className="flex list-inside list-disc flex-col">
-                            <li>Highlight number 1 of my bachelor studies..</li>
-                            <li>Highlight number 1 of my bachelor studies..</li>
-                            <li>Highlight number 1 of my bachelor studies..</li>
+                            <li>Full-stack development with TypeScript, React, Node.js and Express.js.</li>
+                            <li>Relational databases: design, querying and administration (SQL, PostgreSQL, MySQL).</li>
+                            <li>DevOps and collaboration: containerisation (Docker), versioning (Git, GitHub).</li>
                         </ul>
                     </div>
                 </article>
