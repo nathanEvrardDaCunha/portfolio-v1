@@ -1,3 +1,6 @@
+//TODO: Optimize images with WebP for LightHouse
+import adiosLogo from '../images/adios_logo.jpg';
+
 const HomeWork = () => {
     // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
     // TODO: Match the work description of each job with the work description on my portfolio
@@ -10,11 +13,7 @@ const HomeWork = () => {
                     {/* TODO: Replace alt proper image description. */}
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                    <img
-                        src="https://picsum.photos/46"
-                        alt="Alt img"
-                        className="aspect-square h-fit w-fit rounded-lg"
-                    />
+                    <img src={adiosLogo} alt="Alt img" className="aspect-square h-12 w-12 rounded-lg" />
 
                     <div className="flex flex-col">
                         <div className="flex flex-row gap-1">

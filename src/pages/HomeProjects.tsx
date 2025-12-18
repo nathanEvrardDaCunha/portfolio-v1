@@ -1,6 +1,10 @@
 import { Globe } from 'lucide-react';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 
+//TODO: Optimize images with WebP for LightHouse
+import quickTaskDesktop from '../images/quick-task-desktop.png';
+import crisalieDesktop from '../images/crisalie-desktop.png';
+
 const HomeProjects = () => {
     // TODO: Showcase Cris'Alie website and emphasize it's a for professional purpose.
     // TODO: Showcase this portfolio and include the Githup repository link.
@@ -15,7 +19,7 @@ const HomeProjects = () => {
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
                     {/* TODO: Display the image in full when clicked. */}
-                    <img src="https://picsum.photos/300/100" alt="Alt img" className="mb-8 max-h-48 min-h-32 w-full" />
+                    <img src={crisalieDesktop} alt="Alt img" className="mb-8 h-48 w-full object-cover" />
 
                     <div className="flex flex-col">
                         <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
@@ -93,7 +97,7 @@ const HomeProjects = () => {
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
                     {/* TODO: Display the image in full when clicked. */}
-                    <img src="https://picsum.photos/300/100" alt="Alt img" className="mb-8 max-h-48 min-h-32 w-full" />
+                    <img src={quickTaskDesktop} alt="Alt img" className="mb-8 h-48 w-full object-cover" />
 
                     <div className="flex flex-col">
                         <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Online Task Manager</h3>
