@@ -76,22 +76,14 @@ const HomeProjects = () => {
                     </div>
 
                     <div className="mt-auto flex flex-row gap-2">
-                        {/* TODO: Add link to this project live demo if there's one. */}
+                        {/* TODO: Make sure the link is the right one when Cris'Alie will finally be in production. */}
                         <a
-                            href="#"
+                            href="https://crisalie.com"
+                            target="_blank"
                             className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
                             <p className="text-[12px] font-medium text-neutral-50">Website</p>
-                        </a>
-
-                        {/* TODO: Add link to this project public Github repository if there's one. */}
-                        <a
-                            href="#"
-                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
-                        >
-                            <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
-                            <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
                         </a>
                     </div>
                 </article>
@@ -181,7 +173,8 @@ const HomeProjects = () => {
                     <div className="mt-auto flex flex-row gap-2">
                         {/* TODO: Add link to this project live demo if there's one. */}
                         <a
-                            href="#"
+                            href="https://quicktasks.up.railway.app/"
+                            target="_blank"
                             className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
@@ -190,7 +183,8 @@ const HomeProjects = () => {
 
                         {/* TODO: Add link to this project public Github repository if there's one. */}
                         <a
-                            href="#"
+                            href="https://github.com/nathanEvrardDaCunha/quickTasks_front"
+                            target="_blank"
                             className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <UIGitHubIcon className="h-4 w-4 text-neutral-50" />

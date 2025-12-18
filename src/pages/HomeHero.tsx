@@ -3,8 +3,6 @@ import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 
 const HomeHero = () => {
-    // TODO: Make strong word pop visually
-
     return (
         <section className="mx-auto max-w-3xl px-8 py-16">
             <div className="flex flex-col gap-8">
@@ -21,7 +19,6 @@ const HomeHero = () => {
                         23 years old frontend developper from France 🇫🇷
                     </p>
 
-                    {/* blue, fuchsia, gray, indigo, neutral */}
                     <p className="text-base font-medium text-neutral-950 dark:text-neutral-50">
                         Specialized in the <strong className="font-black text-blue-700">JavaScript</strong> ecosystem. I
                         build frontend (and sometimes fullstack) applications with{' '}
@@ -36,26 +33,21 @@ const HomeHero = () => {
                         {/* TODO: Add download icon to this button. */}
                         <a
                             href="#"
+                            target="_blank"
                             className="flex flex-row items-center gap-3 rounded-sm border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-sm hover:bg-neutral-200"
                         >
                             <p className="text-sm font-medium text-neutral-950">Resume</p>
                             <FileDown className="h-4 w-4 text-neutral-950" />
                         </a>
 
-                        {/* TODO: Redirect to my up to date LinkedIn page. */}
-                        {/* TODO: TODO: Replace the link texts with the LinkedIn icon. */}
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/nathan-evrard/" target="_blank">
                             <UILinkedInIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
                         </a>
-                        {/* TODO: Redirect to my up to date LinkedIn page. */}
-                        {/* TODO: TODO: Replace the link texts with the Github icon. */}
-                        <a href="#">
+                        <a href="https://github.com/nathanEvrardDaCunha" target="_blank">
                             <UIGitHubIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
                         </a>
 
-                        {/* TODO: Redirect to my up to date LinkedIn page. */}
-                        {/* TODO: TODO: Replace the link texts with a mail icon. */}
-                        <a href="#">
+                        <a href="mailto:nathan.evrarddacunha@proton.me" target="_blank">
                             <Mail strokeWidth={2} className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
                         </a>
                     </div>
