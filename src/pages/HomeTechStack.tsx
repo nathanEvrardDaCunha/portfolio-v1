@@ -16,6 +16,7 @@ import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
 import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
 import UIHeading2 from '../components/ui/UIHeading2';
 import UITechCategory from '../components/ui/UITechCategory';
+import UITechs from '../components/ui/UITechs';
 
 const HomeTechStack = () => {
     return (
@@ -25,7 +26,7 @@ const HomeTechStack = () => {
             <div className="mb-8 flex flex-col gap-4">
                 <UITechCategory>Front End</UITechCategory>
 
-                <ul className="flex flex-row flex-wrap gap-6">
+                <UITechs>
                     <li className="flex flex-row gap-3">
                         <UIReactIcon />
                         <p>React</p>
@@ -70,13 +71,13 @@ const HomeTechStack = () => {
                         <Accessibility strokeWidth={1.5} />
                         <p>Accessibility</p>
                     </li>
-                </ul>
+                </UITechs>
             </div>
 
             <div className="mb-8 flex flex-col gap-4">
                 <UITechCategory>Back End</UITechCategory>
 
-                <ul className="flex flex-row flex-wrap gap-6">
+                <UITechs>
                     <li className="flex flex-row gap-3">
                         <UINodeIcon />
                         <p>Node.js</p>
@@ -106,13 +107,13 @@ const HomeTechStack = () => {
                         <Database strokeWidth={1.5} />
                         <p>SQL</p>
                     </li>
-                </ul>
+                </UITechs>
             </div>
 
             <div className="flex flex-col gap-4">
                 <UITechCategory>Tools</UITechCategory>
 
-                <ul className="flex flex-row flex-wrap gap-6">
+                <UITechs>
                     <li className="flex flex-row gap-3">
                         <UIGitIcon />
                         <p>Git</p>
@@ -132,7 +133,7 @@ const HomeTechStack = () => {
                         <UILinuxIcon />
                         <p>Linux</p>
                     </li>
-                </ul>
+                </UITechs>
             </div>
         </section>
     );
