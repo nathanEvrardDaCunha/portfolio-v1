@@ -1,4 +1,5 @@
 //TODO: Optimize images with WebP for LightHouse
+import UIHeading2 from '../components/ui/UIHeading2';
 import adiosLogo from '../images/adios_logo.jpg';
 
 const HomeWork = () => {
@@ -9,7 +10,7 @@ const HomeWork = () => {
     // TODO: Standardize rounded (ex: rounded-sm, rounded-lg...)
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Professional experiences</h2>
+            <UIHeading2>Professional experiences</UIHeading2>
 
             <div className="relative flex flex-col gap-8">
                 <div className="absolute top-0 bottom-0 left-10 w-0.5 bg-neutral-300 dark:bg-neutral-600"></div>

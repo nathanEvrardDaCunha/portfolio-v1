@@ -4,6 +4,7 @@ import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 //TODO: Optimize images with WebP for LightHouse
 import quickTaskDesktop from '../images/quick-task-desktop.png';
 import crisalieDesktop from '../images/crisalie-desktop.png';
+import UIHeading2 from '../components/ui/UIHeading2';
 
 const HomeProjects = () => {
     // TODO: Showcase Cris'Alie website and emphasize it's a for professional purpose.
@@ -11,7 +12,7 @@ const HomeProjects = () => {
     // TODO: Showcase my fullstack task-manager "QuickTasks" and include the Githup repository link and the link to the live demo.
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Featured projects</h2>
+            <UIHeading2>Featured projects</UIHeading2>
 
             <div className="flex flex-row flex-wrap gap-4">
                 <article className="flex min-w-3xs flex-1 flex-col rounded-sm border border-neutral-300 p-8 shadow-md">

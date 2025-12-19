@@ -14,11 +14,12 @@ import UIReactIcon from '../components/icons/UIReactIcon';
 import UISassIcon from '../components/icons/UISassIcon';
 import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
 import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
+import UIHeading2 from '../components/ui/UIHeading2';
 
 const HomeTechStack = () => {
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Tech Stack</h2>
+            <UIHeading2>Tech Stack</UIHeading2>
 
             <div className="mb-8 flex flex-col gap-4">
                 <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Front End</h3>
