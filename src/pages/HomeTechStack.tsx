@@ -15,6 +15,7 @@ import UISassIcon from '../components/icons/UISassIcon';
 import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
 import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
 import UIHeading2 from '../components/ui/UIHeading2';
+import UITechCategory from '../components/ui/UITechCategory';
 
 const HomeTechStack = () => {
     return (
@@ -22,7 +23,7 @@ const HomeTechStack = () => {
             <UIHeading2>Tech Stack</UIHeading2>
 
             <div className="mb-8 flex flex-col gap-4">
-                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Front End</h3>
+                <UITechCategory>Front End</UITechCategory>
 
                 <ul className="flex flex-row flex-wrap gap-6">
                     <li className="flex flex-row gap-3">
@@ -73,7 +74,7 @@ const HomeTechStack = () => {
             </div>
 
             <div className="mb-8 flex flex-col gap-4">
-                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Back End</h3>
+                <UITechCategory>Back End</UITechCategory>
 
                 <ul className="flex flex-row flex-wrap gap-6">
                     <li className="flex flex-row gap-3">
@@ -109,7 +110,7 @@ const HomeTechStack = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Tools</h3>
+                <UITechCategory>Tools</UITechCategory>
 
                 <ul className="flex flex-row flex-wrap gap-6">
                     <li className="flex flex-row gap-3">
