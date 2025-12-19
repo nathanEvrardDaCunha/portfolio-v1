@@ -2,6 +2,7 @@
 import UIHeading2 from '../components/ui/UIHeading2';
 import UITimelineDate from '../components/ui/UITimelineDate';
 import UITimelineLogo from '../components/ui/UITimelineLogo';
+import UITimelineTitle from '../components/ui/UITimelineTitle';
 import esgiLogo from '../images/esgi_logo.jpg';
 
 const HomeEducation = () => {
@@ -34,9 +35,7 @@ const HomeEducation = () => {
                                 <UITimelineDate dateTime="2024-09">09/2024</UITimelineDate>
                             </div>
 
-                            <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
-                                Higher School of Computer Genius (ESGI) of Paris
-                            </h3>
+                            <UITimelineTitle>Higher School of Computer Genius (ESGI) of Paris</UITimelineTitle>
 
                             <p className="mb-4 text-base font-normal text-neutral-700 dark:text-neutral-300">
                                 Software and network project manager

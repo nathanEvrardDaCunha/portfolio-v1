@@ -2,6 +2,7 @@
 import UIHeading2 from '../components/ui/UIHeading2';
 import UITimelineDate from '../components/ui/UITimelineDate';
 import UITimelineLogo from '../components/ui/UITimelineLogo';
+import UITimelineTitle from '../components/ui/UITimelineTitle';
 import adiosLogo from '../images/adios_logo.jpg';
 
 const HomeWork = () => {
@@ -37,7 +38,7 @@ const HomeWork = () => {
                                 <UITimelineDate dateTime="2022-05">05/2022</UITimelineDate>
                             </div>
 
-                            <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Institut ADIOS</h3>
+                            <UITimelineTitle>Institut ADIOS</UITimelineTitle>
 
                             <p className="mb-4 text-base text-neutral-700 dark:text-neutral-300">
                                 Internship as Web Developer
