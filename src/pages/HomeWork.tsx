@@ -2,6 +2,7 @@
 import UIHeading2 from '../components/ui/UIHeading2';
 import UITimelineDate from '../components/ui/UITimelineDate';
 import UITimelineLogo from '../components/ui/UITimelineLogo';
+import UITimelineStatus from '../components/ui/UITimelineStatus';
 import UITimelineTitle from '../components/ui/UITimelineTitle';
 import adiosLogo from '../images/adios_logo.jpg';
 
@@ -40,9 +41,7 @@ const HomeWork = () => {
 
                             <UITimelineTitle>Institut ADIOS</UITimelineTitle>
 
-                            <p className="mb-4 text-base text-neutral-700 dark:text-neutral-300">
-                                Internship as Web Developer
-                            </p>
+                            <UITimelineStatus>Internship as Web Developer</UITimelineStatus>
 
                             <ul className="ml-4 flex list-outside list-disc flex-col">
                                 <li>

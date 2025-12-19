@@ -2,6 +2,7 @@
 import UIHeading2 from '../components/ui/UIHeading2';
 import UITimelineDate from '../components/ui/UITimelineDate';
 import UITimelineLogo from '../components/ui/UITimelineLogo';
+import UITimelineStatus from '../components/ui/UITimelineStatus';
 import UITimelineTitle from '../components/ui/UITimelineTitle';
 import esgiLogo from '../images/esgi_logo.jpg';
 
@@ -37,9 +38,7 @@ const HomeEducation = () => {
 
                             <UITimelineTitle>Higher School of Computer Genius (ESGI) of Paris</UITimelineTitle>
 
-                            <p className="mb-4 text-base font-normal text-neutral-700 dark:text-neutral-300">
-                                Software and network project manager
-                            </p>
+                            <UITimelineStatus>Software and network project manager</UITimelineStatus>
 
                             <ul className="ml-4 flex list-outside list-disc flex-col">
                                 <li>Full-stack development with TypeScript, React, Node.js and Express.</li>
