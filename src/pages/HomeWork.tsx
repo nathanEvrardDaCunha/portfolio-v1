@@ -28,11 +28,11 @@ const HomeWork = () => {
                         <div className="flex flex-col">
                             <div className="flex flex-row gap-1">
                                 <time dateTime="2022-02" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    February 2022
+                                    02/2022
                                 </time>
                                 <p className="text-[12px] text-neutral-700">-</p>
                                 <time dateTime="2022-05" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    May 2022
+                                    05/2022
                                 </time>
                             </div>
 
