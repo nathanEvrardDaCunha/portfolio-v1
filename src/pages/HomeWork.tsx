@@ -1,5 +1,6 @@
 //TODO: Optimize images with WebP for LightHouse
 import UIHeading2 from '../components/ui/UIHeading2';
+import UITimelineLogo from '../components/ui/UITimelineLogo';
 import adiosLogo from '../images/adios_logo.jpg';
 
 const HomeWork = () => {
@@ -8,6 +9,8 @@ const HomeWork = () => {
 
     // TODO: Standardize gap (ex: gap-4, gap-5...)
     // TODO: Standardize rounded (ex: rounded-sm, rounded-lg...)
+
+    // TODO: Tweak image loading strategy and priority to enhance Lighthouse score.
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
             <UIHeading2>Professional experiences</UIHeading2>
@@ -17,13 +20,13 @@ const HomeWork = () => {
 
                 <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200">
                     <article className="flex flex-row gap-5">
-                        {/* TODO: Replace alt proper image description. */}
-                        {/* TODO: Replace src with proper image. */}
-                        {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                        <img
+                        <UITimelineLogo
                             src={adiosLogo}
-                            alt="Alt img"
-                            className="z-10 aspect-square h-12 w-12 rounded-full border border-neutral-300 bg-neutral-50 object-cover hover:bg-neutral-200"
+                            alt={'Institut ADIOS business logo.'}
+                            loading={'eager'}
+                            fetchPriority={'high'}
+                            width={48}
+                            height={48}
                         />
 
                         <div className="flex flex-col">

@@ -1,11 +1,13 @@
 //TODO: Optimize images with WebP for LightHouse
 import UIHeading2 from '../components/ui/UIHeading2';
+import UITimelineLogo from '../components/ui/UITimelineLogo';
 import esgiLogo from '../images/esgi_logo.jpg';
 
 const HomeEducation = () => {
     // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
     // TODO: Match the work description of each job with the work description on my portfolio
 
+    // TODO: Tweak image loading strategy and priority to enhance Lighthouse score.
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
             <UIHeading2>Degrees and training</UIHeading2>
@@ -15,13 +17,13 @@ const HomeEducation = () => {
 
                 <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200">
                     <article className="flex flex-row gap-8">
-                        {/* TODO: Replace alt proper image description. */}
-                        {/* TODO: Replace src with proper image. */}
-                        {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                        <img
+                        <UITimelineLogo
                             src={esgiLogo}
-                            alt="Alt img"
-                            className="z-10 aspect-square h-12 w-12 rounded-full border border-neutral-300 bg-neutral-50 object-cover hover:bg-neutral-200"
+                            alt={'ESGI school logo.'}
+                            loading={'eager'}
+                            fetchPriority={'high'}
+                            width={48}
+                            height={48}
                         />
 
                         <div className="flex flex-col">
