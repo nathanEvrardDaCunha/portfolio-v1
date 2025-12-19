@@ -19,7 +19,7 @@ const HomeProjects = () => {
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
                     {/* TODO: Display the image in full when clicked. */}
-                    <img src={crisalieDesktop} alt="Alt img" className="mb-8 h-48 w-full object-cover" />
+                    <img src={crisalieDesktop} alt="Alt img" className="mb-8 h-48 w-full object-cover shadow-md" />
 
                     <div className="flex flex-col">
                         <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
@@ -97,7 +97,7 @@ const HomeProjects = () => {
                     {/* TODO: Replace src with proper image. */}
                     {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
                     {/* TODO: Display the image in full when clicked. */}
-                    <img src={quickTaskDesktop} alt="Alt img" className="mb-8 h-48 w-full object-cover" />
+                    <img src={quickTaskDesktop} alt="Alt img" className="mb-8 h-48 w-full object-cover shadow-md" />
 
                     <div className="flex flex-col">
                         <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Online Task Manager</h3>
