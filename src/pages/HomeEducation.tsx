@@ -1,5 +1,6 @@
 //TODO: Optimize images with WebP for LightHouse
 import UIHeading2 from '../components/ui/UIHeading2';
+import UITimelineDate from '../components/ui/UITimelineDate';
 import UITimelineLogo from '../components/ui/UITimelineLogo';
 import esgiLogo from '../images/esgi_logo.jpg';
 
@@ -28,13 +29,9 @@ const HomeEducation = () => {
 
                         <div className="flex flex-col">
                             <div className="flex flex-row gap-1">
-                                <time dateTime="2021-09" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    09/2021
-                                </time>
+                                <UITimelineDate dateTime="2021-09">09/2021</UITimelineDate>
                                 <p className="text-[12px] text-neutral-700">-</p>
-                                <time dateTime="2024-09" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    09/2024
-                                </time>
+                                <UITimelineDate dateTime="2024-09">09/2024</UITimelineDate>
                             </div>
 
                             <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
