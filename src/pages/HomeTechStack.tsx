@@ -17,6 +17,7 @@ import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
 import UIHeading2 from '../components/ui/UIHeading2';
 import UITechCategory from '../components/ui/UITechCategory';
 import UITechs from '../components/ui/UITechs';
+import UITech from '../components/ui/UITech';
 
 const HomeTechStack = () => {
     return (
@@ -27,50 +28,50 @@ const HomeTechStack = () => {
                 <UITechCategory>Front End</UITechCategory>
 
                 <UITechs>
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIReactIcon />
                         <p>React</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UITypeScriptIcon />
                         <p>TypeScript</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIJavaScriptIcon />
                         <p>JavaScript</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UITailwindCSSIcon />
                         <p>Tailwind CSS</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UISassIcon />
                         <p>SASS/SCSS</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIHtmlIcon />
                         <p>HTML5</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UICssIcon />
                         <p>CSS3</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <MonitorSmartphone strokeWidth={1.5} />
                         <p>Responsive Design</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <Accessibility strokeWidth={1.5} />
                         <p>Accessibility</p>
-                    </li>
+                    </UITech>
                 </UITechs>
             </div>
 
@@ -78,35 +79,35 @@ const HomeTechStack = () => {
                 <UITechCategory>Back End</UITechCategory>
 
                 <UITechs>
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UINodeIcon />
                         <p>Node.js</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIExpressIcon />
                         <p>Express</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <ServerCog strokeWidth={1.5} />
                         <p>API RESTful</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIPostgreSQLIcon />
                         <p>PostgreSQL</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIMySQLIcon />
                         <p>MySQL</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <Database strokeWidth={1.5} />
                         <p>SQL</p>
-                    </li>
+                    </UITech>
                 </UITechs>
             </div>
 
@@ -114,25 +115,25 @@ const HomeTechStack = () => {
                 <UITechCategory>Tools</UITechCategory>
 
                 <UITechs>
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIGitIcon />
                         <p>Git</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIGitHubIcon />
                         <p>GitHub</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIDockerIcon />
                         <p>Docker</p>
-                    </li>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UILinuxIcon />
                         <p>Linux</p>
-                    </li>
+                    </UITech>
                 </UITechs>
             </div>
         </section>
