@@ -1,10 +1,12 @@
 //TODO: Optimize images with WebP for LightHouse
-import UIHeading2 from '../components/ui/heading/UIHeading2';
-import UITimelineDate from '../components/block/timeline/UITimelineDate';
-import UITimelineLogo from '../components/block/timeline/UITimelineLogo';
-import UITimelineStatus from '../components/block/timeline/UITimelineStatus';
-import UITimelineTitle from '../components/block/timeline/UITimelineTitle';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
+import UITimelineDate from '../components/blocks/timeline/UITimelineDate';
+import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
+import UITimelineStatus from '../components/blocks/timeline/UITimelineStatus';
+import UITimelineTitle from '../components/blocks/timeline/UITimelineTitle';
 import adiosLogo from '../images/adios_logo.jpg';
+import UIOutsideList from '../components/ui/lists/UIOutsideList';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
 const HomeWork = () => {
     // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
@@ -43,24 +45,34 @@ const HomeWork = () => {
 
                             <UITimelineStatus>Internship as Web Developer</UITimelineStatus>
 
-                            <ul className="ml-4 flex list-outside list-disc flex-col">
+                            <UIOutsideList>
                                 <li>
-                                    Design of an automated workflow (Zapier, JavaScript scripts) reducing the
-                                    operational burden of the secretariat by 30%.
+                                    <UIParagraph>
+                                        Design of an automated workflow (Zapier, JavaScript scripts) reducing the
+                                        operational burden of the secretariat by 30%.
+                                    </UIParagraph>
                                 </li>
 
                                 <li>
-                                    Development of an interactive form with Tally, improving user experience and
-                                    completion rate.
+                                    <UIParagraph>
+                                        Development of an interactive form with Tally, improving user experience and
+                                        completion rate.
+                                    </UIParagraph>
                                 </li>
 
                                 <li>
-                                    Visual redesign of WordPress articles and strategic integration of CTA to optimize
-                                    conversion.
+                                    <UIParagraph>
+                                        Visual redesign of WordPress articles and strategic integration of CTA to
+                                        optimize conversion.
+                                    </UIParagraph>
                                 </li>
 
-                                <li>Mentorship of an intern on the company’s automation practices and workflows.</li>
-                            </ul>
+                                <li>
+                                    <UIParagraph>
+                                        Mentorship of an intern on the company’s automation practices and workflows.
+                                    </UIParagraph>
+                                </li>
+                            </UIOutsideList>
                         </div>
                     </article>
                 </div>

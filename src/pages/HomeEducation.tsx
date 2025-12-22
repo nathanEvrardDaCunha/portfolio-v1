@@ -1,10 +1,12 @@
 //TODO: Optimize images with WebP for LightHouse
-import UIHeading2 from '../components/ui/heading/UIHeading2';
-import UITimelineDate from '../components/block/timeline/UITimelineDate';
-import UITimelineLogo from '../components/block/timeline/UITimelineLogo';
-import UITimelineStatus from '../components/block/timeline/UITimelineStatus';
-import UITimelineTitle from '../components/block/timeline/UITimelineTitle';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
+import UITimelineDate from '../components/blocks/timeline/UITimelineDate';
+import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
+import UITimelineStatus from '../components/blocks/timeline/UITimelineStatus';
+import UITimelineTitle from '../components/blocks/timeline/UITimelineTitle';
 import esgiLogo from '../images/esgi_logo.jpg';
+import UIOutsideList from '../components/ui/lists/UIOutsideList';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
 const HomeEducation = () => {
     // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
@@ -40,13 +42,24 @@ const HomeEducation = () => {
 
                             <UITimelineStatus>Software and network project manager</UITimelineStatus>
 
-                            <ul className="ml-4 flex list-outside list-disc flex-col">
-                                <li>Full-stack development with TypeScript, React, Node.js and Express.</li>
+                            <UIOutsideList>
                                 <li>
-                                    Relational databases: design, querying and administration (SQL, PostgreSQL, MySQL).
+                                    <UIParagraph>
+                                        Full-stack development with TypeScript, React, Node.js and Express.
+                                    </UIParagraph>
                                 </li>
-                                <li>DevOps and collaboration: containerisation (Docker), versioning (Git, GitHub).</li>
-                            </ul>
+                                <li>
+                                    <UIParagraph>
+                                        Relational databases: design, querying and administration (SQL, PostgreSQL,
+                                        MySQL).
+                                    </UIParagraph>
+                                </li>
+                                <li>
+                                    <UIParagraph>
+                                        DevOps and collaboration: containerisation (Docker), versioning (Git, GitHub).
+                                    </UIParagraph>
+                                </li>
+                            </UIOutsideList>
                         </div>
                     </article>
                 </div>

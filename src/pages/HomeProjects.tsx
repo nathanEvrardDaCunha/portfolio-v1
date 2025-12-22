@@ -4,8 +4,10 @@ import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 //TODO: Optimize images with WebP for LightHouse
 import quickTaskDesktop from '../images/quick-task-desktop.png';
 import crisalieDesktop from '../images/crisalie-desktop.png';
-import UIHeading2 from '../components/ui/heading/UIHeading2';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UIImage from '../components/ui/UIImage';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
+import UISmallParagraph from '../components/ui/paragraphs/UISmallParagraph';
 
 const HomeProjects = () => {
     // TODO: Showcase Cris'Alie website and emphasize it's a for professional purpose.
@@ -36,51 +38,51 @@ const HomeProjects = () => {
                             Volunteering
                         </strong>
 
-                        <p className="mb-6 text-base font-medium text-neutral-950 dark:text-neutral-50">
+                        <UIParagraph className="mb-6">
                             Design, build and put into production from A to Z the showcase site of Cris'Alie, a Narbonne
                             sales shop, to make them visible online.
-                        </p>
+                        </UIParagraph>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">React</p>
+                                <UISmallParagraph>React</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
+                                <UISmallParagraph>TypeScript</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
+                                <UISmallParagraph>JavaScript</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Tailwind CSS</p>
+                                <UISmallParagraph>Tailwind CSS</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">HTML5</p>
+                                <UISmallParagraph>HTML5</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">CSS3</p>
+                                <UISmallParagraph>CSS3</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Responsive Design</p>
+                                <UISmallParagraph>Responsive Design</UISmallParagraph>
                             </li>
 
                             {/* TODO: Also add SEO tag in project and Tech Stack for performances reasons (like Lighthouse) or is it too much ? */}
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Accessibility</p>
+                                <UISmallParagraph>Accessibility</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Git</p>
+                                <UISmallParagraph>Git</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">GitHub</p>
+                                <UISmallParagraph>GitHub</UISmallParagraph>
                             </li>
                         </ul>
                     </div>
@@ -93,7 +95,9 @@ const HomeProjects = () => {
                             className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
-                            <p className="text-[12px] font-medium text-neutral-50">Website</p>
+                            <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">
+                                Website
+                            </UISmallParagraph>
                         </a>
                     </div>
                 </article>
@@ -116,70 +120,70 @@ const HomeProjects = () => {
                             Personal
                         </strong>
 
-                        <p className="mb-6 text-base font-medium text-neutral-950 dark:text-neutral-50">
+                        <UIParagraph className="mb-6">
                             Develop and put online a Full Stack task manager, suitable for visually impaired people and
                             with secure authentication.
-                        </p>
+                        </UIParagraph>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">React</p>
+                                <UISmallParagraph>React</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">TypeScript</p>
+                                <UISmallParagraph>TypeScript</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">JavaScript</p>
+                                <UISmallParagraph>JavaScript</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">SASS/SCSS</p>
+                                <UISmallParagraph>SASS/SCSS</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">HTML5</p>
+                                <UISmallParagraph>HTML5</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">CSS3</p>
+                                <UISmallParagraph>CSS3</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Responsive Design</p>
+                                <UISmallParagraph>Responsive Design</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Accessibility</p>
+                                <UISmallParagraph>Accessibility</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Git</p>
+                                <UISmallParagraph>Git</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">GitHub</p>
+                                <UISmallParagraph>GitHub</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Node.js</p>
+                                <UISmallParagraph>Node.js</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">Express</p>
+                                <UISmallParagraph>Express</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">API RESTful</p>
+                                <UISmallParagraph>API RESTful</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">PostgreSQL</p>
+                                <UISmallParagraph>PostgreSQL</UISmallParagraph>
                             </li>
 
                             <li className="rounded-sm bg-neutral-200 px-2 py-1">
-                                <p className="text-[12px] font-medium text-neutral-950">SQL</p>
+                                <UISmallParagraph>SQL</UISmallParagraph>
                             </li>
                         </ul>
                     </div>
@@ -192,7 +196,9 @@ const HomeProjects = () => {
                             className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50" />
-                            <p className="text-[12px] font-medium text-neutral-50">Website</p>
+                            <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">
+                                Website
+                            </UISmallParagraph>
                         </a>
 
                         {/* TODO: Add link to this project public Github repository if there's one. */}
@@ -202,7 +208,9 @@ const HomeProjects = () => {
                             className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800"
                         >
                             <UIGitHubIcon className="h-4 w-4 text-neutral-50" />
-                            <p className="text-[12px] font-medium text-neutral-50">GitHub</p>
+                            <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">
+                                GitHub
+                            </UISmallParagraph>
                         </a>
                     </div>
                 </article>

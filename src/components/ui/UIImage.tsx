@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { twJoin } from 'tailwind-merge';
+import { twMerge } from 'tailwind-merge';
 
 interface UIImageProps extends React.HTMLAttributes<HTMLImageElement> {
     src: string;
@@ -28,7 +28,7 @@ const UIImage = ({
             fetchPriority={fetchPriority}
             width={width}
             height={height}
-            className={twJoin(clsx('shadow-md'), className)}
+            className={twMerge(clsx('shadow-md'), className)}
             {...props}
         />
     );

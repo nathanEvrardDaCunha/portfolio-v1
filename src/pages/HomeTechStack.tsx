@@ -14,10 +14,10 @@ import UIReactIcon from '../components/icons/UIReactIcon';
 import UISassIcon from '../components/icons/UISassIcon';
 import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
 import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
-import UIHeading2 from '../components/ui/heading/UIHeading2';
-import UITechCategory from '../components/block/tech-stack/UITechCategory';
-import UITechs from '../components/block/tech-stack/UITechs';
-import UITech from '../components/block/tech-stack/UITech';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
+import UITechCategory from '../components/blocks/tech-stack/UITechCategory';
+import UITechs from '../components/blocks/tech-stack/UITechs';
+import UITech from '../components/blocks/tech-stack/UITech';
 
 const HomeTechStack = () => {
     return (

@@ -3,7 +3,8 @@ import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 import protraitImage from '../../src/images/portrait.jpg';
 import UIImage from '../components/ui/UIImage';
-import UIHeading2 from '../components/ui/heading/UIHeading2';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
 const HomeHero = () => {
     return (
@@ -22,16 +23,14 @@ const HomeHero = () => {
                 <div className="flex flex-col gap-5">
                     <UIHeading2>Hi Nathan here.</UIHeading2>
 
-                    <p className="text-base font-medium text-neutral-950 dark:text-neutral-50">
-                        22 years old frontend developper from France 🇫🇷
-                    </p>
+                    <UIParagraph>22 years old frontend developper from France 🇫🇷</UIParagraph>
 
-                    <p className="text-base font-medium text-neutral-950 dark:text-neutral-50">
+                    <UIParagraph>
                         Specialized in the <strong className="font-black text-blue-700">JavaScript</strong> ecosystem. I
                         build frontend (and sometimes fullstack) applications with{' '}
                         <strong className="font-black text-blue-700">TypeScript</strong> and{' '}
                         <strong className="font-black text-blue-700">React</strong>.
-                    </p>
+                    </UIParagraph>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
                         {/* TODO: Make this link look like a button. */}
@@ -43,7 +42,7 @@ const HomeHero = () => {
                             target="_blank"
                             className="flex w-fit flex-row items-center gap-3 rounded-sm border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-sm hover:bg-neutral-200"
                         >
-                            <p className="text-sm font-medium text-neutral-950">Resume</p>
+                            <UIParagraph>Resume</UIParagraph>
                             <FileDown className="h-4 w-4 text-neutral-950" />
                         </a>
 
