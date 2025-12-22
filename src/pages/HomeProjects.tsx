@@ -17,18 +17,14 @@ const HomeProjects = () => {
 
             <div className="flex flex-row flex-wrap gap-4">
                 <article className="flex min-w-3xs flex-1 flex-col rounded-sm border border-neutral-300 p-8 shadow-md">
-                    {/* TODO: Replace alt proper image description. */}
-                    {/* TODO: Replace src with proper image. */}
-                    {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                    {/* TODO: Display the image in full when clicked. */}
                     <UIImage
                         src={crisalieDesktop}
-                        alt="Alt img"
+                        alt="Showcase of the home hero section of the volunteering showcase site of Cris'Alie."
                         className="mb-8 h-48 w-full object-cover"
-                        loading={'eager'}
-                        fetchPriority={'high'}
-                        width={0}
-                        height={0}
+                        loading={'lazy'}
+                        fetchPriority={'auto'}
+                        width={460}
+                        height={192}
                     />
 
                     <div className="flex flex-col">
@@ -103,18 +99,14 @@ const HomeProjects = () => {
                 </article>
 
                 <article className="flex min-w-3xs flex-1 flex-col rounded-sm border border-neutral-300 p-8 shadow-md">
-                    {/* TODO: Replace alt proper image description. */}
-                    {/* TODO: Replace src with proper image. */}
-                    {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                    {/* TODO: Display the image in full when clicked. */}
                     <UIImage
                         src={quickTaskDesktop}
-                        alt="Alt img"
-                        className="mb-8 h-48 w-fit object-cover"
-                        loading={'eager'}
-                        fetchPriority={'high'}
-                        width={0}
-                        height={0}
+                        alt="Showcase of the inteface panel of the personal task manager project named QuickTask."
+                        className="mb-8 h-48 w-full object-cover"
+                        loading={'lazy'}
+                        fetchPriority={'auto'}
+                        width={460}
+                        height={192}
                     />
 
                     <div className="flex flex-col">
