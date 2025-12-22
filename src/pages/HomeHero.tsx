@@ -11,6 +11,7 @@ const HomeHero = () => {
                 <UIImage
                     src={protraitImage}
                     alt="Portrait of EVRARD Nathan."
+                    className="aspect-auto h-64 w-fit rounded-lg"
                     loading={'eager'}
                     fetchPriority={'high'}
                     width={192}

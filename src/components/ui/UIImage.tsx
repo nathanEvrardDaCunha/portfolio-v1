@@ -28,7 +28,7 @@ const UIImage = ({
             fetchPriority={fetchPriority}
             width={width}
             height={height}
-            className={twJoin(clsx('aspect-auto h-64 w-fit rounded-lg shadow-md'), className)}
+            className={twJoin(clsx('shadow-md'), className)}
             {...props}
         />
     );
