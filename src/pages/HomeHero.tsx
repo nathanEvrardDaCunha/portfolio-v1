@@ -3,6 +3,7 @@ import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 import protraitImage from '../../src/images/portrait.jpg';
 import UIImage from '../components/ui/UIImage';
+import UIHeading2 from '../components/ui/heading/UIHeading2';
 
 const HomeHero = () => {
     return (
@@ -19,7 +20,7 @@ const HomeHero = () => {
                 />
 
                 <div className="flex flex-col gap-5">
-                    <h1 className="text-2xl font-bold text-neutral-950 dark:text-neutral-50">Hi Nathan here.</h1>
+                    <UIHeading2>Hi Nathan here.</UIHeading2>
 
                     <p className="text-base font-medium text-neutral-950 dark:text-neutral-50">
                         22 years old frontend developper from France 🇫🇷

@@ -14,15 +14,15 @@ import UIReactIcon from '../components/icons/UIReactIcon';
 import UISassIcon from '../components/icons/UISassIcon';
 import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
 import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
-import UIHeading2 from '../components/ui/UIHeading2';
-import UITechCategory from '../components/ui/UITechCategory';
-import UITechs from '../components/ui/UITechs';
-import UITech from '../components/ui/UITech';
+import UIHeading2 from '../components/ui/heading/UIHeading2';
+import UITechCategory from '../components/block/tech-stack/UITechCategory';
+import UITechs from '../components/block/tech-stack/UITechs';
+import UITech from '../components/block/tech-stack/UITech';
 
 const HomeTechStack = () => {
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
-            <UIHeading2>Tech Stack</UIHeading2>
+            <UIHeading2 className="mb-8">Tech Stack</UIHeading2>
 
             <div className="mb-8 flex flex-col gap-4">
                 <UITechCategory>Front End</UITechCategory>

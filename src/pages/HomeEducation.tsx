@@ -1,9 +1,9 @@
 //TODO: Optimize images with WebP for LightHouse
-import UIHeading2 from '../components/ui/UIHeading2';
-import UITimelineDate from '../components/ui/UITimelineDate';
-import UITimelineLogo from '../components/ui/UITimelineLogo';
-import UITimelineStatus from '../components/ui/UITimelineStatus';
-import UITimelineTitle from '../components/ui/UITimelineTitle';
+import UIHeading2 from '../components/ui/heading/UIHeading2';
+import UITimelineDate from '../components/block/timeline/UITimelineDate';
+import UITimelineLogo from '../components/block/timeline/UITimelineLogo';
+import UITimelineStatus from '../components/block/timeline/UITimelineStatus';
+import UITimelineTitle from '../components/block/timeline/UITimelineTitle';
 import esgiLogo from '../images/esgi_logo.jpg';
 
 const HomeEducation = () => {
@@ -13,7 +13,7 @@ const HomeEducation = () => {
     // TODO: Tweak image loading strategy and priority to enhance Lighthouse score.
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
-            <UIHeading2>Degrees and training</UIHeading2>
+            <UIHeading2 className="mb-8">Degrees and training</UIHeading2>
 
             <div className="relative flex flex-col gap-8">
                 <div className="absolute top-0 bottom-0 left-10 w-0.5 bg-neutral-300 dark:bg-neutral-600"></div>
