@@ -1,6 +1,7 @@
 import { FileDown, Mail } from 'lucide-react';
 import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
+import protraitImage from '../../src/images/portrait.jpg';
 
 const HomeHero = () => {
     return (
@@ -10,11 +11,7 @@ const HomeHero = () => {
                 {/* TODO: Replace alt proper image description. */}
                 {/* TODO: Replace src with proper image. */}
                 {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                <img
-                    src="https://picsum.photos/200/260"
-                    className="aspect-auto h-fit w-fit rounded-lg shadow-md"
-                    alt="Alt img"
-                />
+                <img src={protraitImage} className="aspect-auto h-64 w-fit rounded-lg shadow-md" alt="Alt img" />
 
                 <div className="flex flex-col gap-5">
                     <h1 className="text-2xl font-bold text-neutral-950 dark:text-neutral-50">Hi Nathan here.</h1>
