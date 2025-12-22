@@ -2,16 +2,20 @@ import { FileDown, Mail } from 'lucide-react';
 import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 import protraitImage from '../../src/images/portrait.jpg';
+import UIImage from '../components/ui/UIImage';
 
 const HomeHero = () => {
     return (
         <section className="mx-auto max-w-3xl px-8 py-16">
             <div className="flex flex-col gap-8 sm:flex-row-reverse">
-                {/* TODO: Add clean image about myself */}
-                {/* TODO: Replace alt proper image description. */}
-                {/* TODO: Replace src with proper image. */}
-                {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                <img src={protraitImage} className="aspect-auto h-64 w-fit rounded-lg shadow-md" alt="Alt img" />
+                <UIImage
+                    src={protraitImage}
+                    alt="Portrait of EVRARD Nathan."
+                    loading={'eager'}
+                    fetchPriority={'high'}
+                    width={192}
+                    height={256}
+                />
 
                 <div className="flex flex-col gap-5">
                     <h1 className="text-2xl font-bold text-neutral-950 dark:text-neutral-50">Hi Nathan here.</h1>
