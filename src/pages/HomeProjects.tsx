@@ -8,6 +8,7 @@ import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UIImage from '../components/ui/UIImage';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UISmallParagraph from '../components/ui/paragraphs/UISmallParagraph';
+import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
 
 const HomeProjects = () => {
     // TODO: Showcase Cris'Alie website and emphasize it's a for professional purpose.
@@ -34,9 +35,7 @@ const HomeProjects = () => {
                             Cris'Alie Showcase Site
                         </h3>
 
-                        <strong className="mb-6 text-base font-normal text-neutral-700 dark:text-neutral-300">
-                            Volunteering
-                        </strong>
+                        <UILightParagraph className="mb-6">Volunteering</UILightParagraph>
 
                         <UIParagraph className="mb-6">
                             Design, build and put into production from A to Z the showcase site of Cris'Alie, a Narbonne
@@ -116,9 +115,7 @@ const HomeProjects = () => {
                     <div className="flex flex-col">
                         <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Online Task Manager</h3>
 
-                        <strong className="mb-6 text-base font-normal text-neutral-700 dark:text-neutral-300">
-                            Personal
-                        </strong>
+                        <UILightParagraph className="mb-6">Personal</UILightParagraph>
 
                         <UIParagraph className="mb-6">
                             Develop and put online a Full Stack task manager, suitable for visually impaired people and
