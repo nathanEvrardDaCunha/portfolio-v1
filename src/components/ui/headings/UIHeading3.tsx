@@ -1,11 +1,11 @@
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
-interface UITimelineTitleProps extends React.HTMLAttributes<HTMLHeadingElement> {
+interface UIHeading3Props extends React.HTMLAttributes<HTMLHeadingElement> {
     children: string;
 }
 
-const UITimelineTitle = ({ children, className, ...props }: UITimelineTitleProps) => {
+const UIHeading3 = ({ children, className, ...props }: UIHeading3Props) => {
     return (
         <h3 className={twMerge(clsx('text-lg font-bold text-neutral-950 dark:text-neutral-50'), className)} {...props}>
             {children}
@@ -13,4 +13,4 @@ const UITimelineTitle = ({ children, className, ...props }: UITimelineTitleProps
     );
 };
 
-export default UITimelineTitle;
+export default UIHeading3;

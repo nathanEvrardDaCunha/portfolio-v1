@@ -15,9 +15,9 @@ import UISassIcon from '../components/icons/UISassIcon';
 import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
 import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
 import UIHeading2 from '../components/ui/headings/UIHeading2';
-import UITechCategory from '../components/blocks/tech-stack/UITechCategory';
 import UITechs from '../components/blocks/tech-stack/UITechs';
 import UITech from '../components/blocks/tech-stack/UITech';
+import UIHeading3 from '../components/ui/headings/UIHeading3';
 
 const HomeTechStack = () => {
     return (
@@ -25,7 +25,7 @@ const HomeTechStack = () => {
             <UIHeading2 className="mb-8">Tech Stack</UIHeading2>
 
             <div className="mb-8 flex flex-col gap-4">
-                <UITechCategory>Front End</UITechCategory>
+                <UIHeading3>Front End</UIHeading3>
 
                 <UITechs>
                     <UITech>
@@ -76,7 +76,7 @@ const HomeTechStack = () => {
             </div>
 
             <div className="mb-8 flex flex-col gap-4">
-                <UITechCategory>Back End</UITechCategory>
+                <UIHeading3>Back End</UIHeading3>
 
                 <UITechs>
                     <UITech>
@@ -112,7 +112,7 @@ const HomeTechStack = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-                <UITechCategory>Tools</UITechCategory>
+                <UIHeading3>Tools</UIHeading3>
 
                 <UITechs>
                     <UITech>

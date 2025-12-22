@@ -9,6 +9,7 @@ import UIImage from '../components/ui/UIImage';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UISmallParagraph from '../components/ui/paragraphs/UISmallParagraph';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
+import UIHeading3 from '../components/ui/headings/UIHeading3';
 
 const HomeProjects = () => {
     // TODO: Showcase Cris'Alie website and emphasize it's a for professional purpose.
@@ -31,9 +32,7 @@ const HomeProjects = () => {
                     />
 
                     <div className="flex flex-col">
-                        <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
-                            Cris'Alie Showcase Site
-                        </h3>
+                        <UIHeading3>Cris'Alie Showcase Site</UIHeading3>
 
                         <UILightParagraph className="mb-6">Volunteering</UILightParagraph>
 
@@ -113,7 +112,7 @@ const HomeProjects = () => {
                     />
 
                     <div className="flex flex-col">
-                        <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Online Task Manager</h3>
+                        <UIHeading3>Online Task Manager</UIHeading3>
 
                         <UILightParagraph className="mb-6">Personal</UILightParagraph>
 

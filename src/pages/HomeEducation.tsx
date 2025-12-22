@@ -2,11 +2,11 @@
 import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UITimelineDate from '../components/blocks/timeline/UITimelineDate';
 import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
-import UITimelineTitle from '../components/blocks/timeline/UITimelineTitle';
 import esgiLogo from '../images/esgi_logo.jpg';
 import UIOutsideList from '../components/ui/lists/UIOutsideList';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
+import UIHeading3 from '../components/ui/headings/UIHeading3';
 
 const HomeEducation = () => {
     // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
@@ -38,7 +38,7 @@ const HomeEducation = () => {
                                 <UITimelineDate dateTime="2024-09">09/2024</UITimelineDate>
                             </div>
 
-                            <UITimelineTitle>Higher School of Computer Genius (ESGI) of Paris</UITimelineTitle>
+                            <UIHeading3>Higher School of Computer Genius (ESGI) of Paris</UIHeading3>
 
                             <UILightParagraph className="mb-4">Software and network project manager</UILightParagraph>
 

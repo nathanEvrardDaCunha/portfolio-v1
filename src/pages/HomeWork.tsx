@@ -2,11 +2,11 @@
 import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UITimelineDate from '../components/blocks/timeline/UITimelineDate';
 import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
-import UITimelineTitle from '../components/blocks/timeline/UITimelineTitle';
 import adiosLogo from '../images/adios_logo.jpg';
 import UIOutsideList from '../components/ui/lists/UIOutsideList';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
+import UIHeading3 from '../components/ui/headings/UIHeading3';
 
 const HomeWork = () => {
     // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
@@ -41,7 +41,7 @@ const HomeWork = () => {
                                 <UITimelineDate dateTime="2022-05">05/2022</UITimelineDate>
                             </div>
 
-                            <UITimelineTitle>Institut ADIOS</UITimelineTitle>
+                            <UIHeading3>Institut ADIOS</UIHeading3>
 
                             <UILightParagraph className="mb-4">Internship as Web Developer</UILightParagraph>
 
