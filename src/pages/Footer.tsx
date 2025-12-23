@@ -3,7 +3,8 @@ import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
-// flex  gap-4 sm:flex-row sm:items-center
+// TODO: When :hover, fill the background with the same color as border ?
+
 const Footer = () => {
     return (
         // TODO: Change copyright website name when in production.
@@ -13,14 +14,17 @@ const Footer = () => {
 
                 <div className="flex flex-row gap-4">
                     <a href="https://www.linkedin.com/in/nathan-evrard/" target="_blank">
-                        <UILinkedInIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
+                        <UILinkedInIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300" />
                     </a>
                     <a href="https://github.com/nathanEvrardDaCunha" target="_blank">
-                        <UIGitHubIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
+                        <UIGitHubIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300" />
                     </a>
 
                     <a href="mailto:nathan.evrarddacunha@proton.me" target="_blank">
-                        <Mail strokeWidth={2} className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
+                        <Mail
+                            strokeWidth={2}
+                            className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300"
+                        />
                     </a>
                 </div>
             </div>

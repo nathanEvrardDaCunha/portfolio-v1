@@ -30,7 +30,7 @@ const UITimelineLogo = ({
             height={height}
             className={twMerge(
                 clsx(
-                    'z-10 aspect-square h-12 w-12 rounded-full border border-neutral-300 bg-neutral-50 object-cover hover:bg-neutral-200'
+                    'z-10 aspect-square h-12 w-12 rounded-full border border-neutral-300 bg-neutral-50 object-cover hover:bg-neutral-200 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:bg-neutral-800'
                 ),
                 className
             )}

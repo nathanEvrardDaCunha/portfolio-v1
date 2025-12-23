@@ -28,7 +28,7 @@ const UIImage = ({
             fetchPriority={fetchPriority}
             width={width}
             height={height}
-            className={twMerge(clsx('shadow-md'), className)}
+            className={twMerge(clsx('border border-neutral-200 shadow-md dark:border-neutral-800'), className)}
             {...props}
         />
     );

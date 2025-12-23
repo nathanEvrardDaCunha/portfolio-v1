@@ -18,6 +18,7 @@ import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UITechs from '../components/blocks/tech-stack/UITechs';
 import UITech from '../components/blocks/tech-stack/UITech';
 import UIHeading3 from '../components/ui/headings/UIHeading3';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
 const HomeTechStack = () => {
     return (
@@ -30,47 +31,47 @@ const HomeTechStack = () => {
                 <UITechs>
                     <UITech>
                         <UIReactIcon />
-                        <p>React</p>
+                        <UIParagraph>React</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UITypeScriptIcon />
-                        <p>TypeScript</p>
+                        <UIParagraph>TypeScript</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UIJavaScriptIcon />
-                        <p>JavaScript</p>
+                        <UIParagraph>JavaScript</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UITailwindCSSIcon />
-                        <p>Tailwind CSS</p>
+                        <UIParagraph>Tailwind CSS</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UISassIcon />
-                        <p>SASS/SCSS</p>
+                        <UIParagraph>SASS/SCSS</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UIHtmlIcon />
-                        <p>HTML5</p>
+                        <UIParagraph>HTML5</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UICssIcon />
-                        <p>CSS3</p>
+                        <UIParagraph>CSS3</UIParagraph>
                     </UITech>
 
                     <UITech>
-                        <MonitorSmartphone strokeWidth={1.5} />
-                        <p>Responsive Design</p>
+                        <MonitorSmartphone strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>Responsive Design</UIParagraph>
                     </UITech>
 
                     <UITech>
-                        <Accessibility strokeWidth={1.5} />
-                        <p>Accessibility</p>
+                        <Accessibility strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>Accessibility</UIParagraph>
                     </UITech>
                 </UITechs>
             </div>
@@ -81,32 +82,32 @@ const HomeTechStack = () => {
                 <UITechs>
                     <UITech>
                         <UINodeIcon />
-                        <p>Node.js</p>
+                        <UIParagraph>Node.js</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UIExpressIcon />
-                        <p>Express</p>
+                        <UIParagraph>Express</UIParagraph>
                     </UITech>
 
                     <UITech>
-                        <ServerCog strokeWidth={1.5} />
-                        <p>API RESTful</p>
+                        <ServerCog strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>API RESTful</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UIPostgreSQLIcon />
-                        <p>PostgreSQL</p>
+                        <UIParagraph>PostgreSQL</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UIMySQLIcon />
-                        <p>MySQL</p>
+                        <UIParagraph>MySQL</UIParagraph>
                     </UITech>
 
                     <UITech>
-                        <Database strokeWidth={1.5} />
-                        <p>SQL</p>
+                        <Database strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>SQL</UIParagraph>
                     </UITech>
                 </UITechs>
             </div>
@@ -117,22 +118,22 @@ const HomeTechStack = () => {
                 <UITechs>
                     <UITech>
                         <UIGitIcon />
-                        <p>Git</p>
+                        <UIParagraph>Git</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UIGitHubIcon />
-                        <p>GitHub</p>
+                        <UIParagraph>GitHub</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UIDockerIcon />
-                        <p>Docker</p>
+                        <UIParagraph>Docker</UIParagraph>
                     </UITech>
 
                     <UITech>
                         <UILinuxIcon />
-                        <p>Linux</p>
+                        <UIParagraph>Linux</UIParagraph>
                     </UITech>
                 </UITechs>
             </div>
