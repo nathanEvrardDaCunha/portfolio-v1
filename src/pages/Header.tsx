@@ -6,8 +6,8 @@ const Header = () => {
         <section className="bg-opacity-0 m sticky top-0 z-20 bg-neutral-50/75 bg-clip-padding backdrop-blur-sm backdrop-filter dark:bg-neutral-900/75">
             <div className="mx-auto max-w-3xl px-8">
                 <div className="flex flex-row py-8">
-                    <nav>
-                        <ul className="flex flex-row gap-8">
+                    <nav className="h-full w-full max-w-80">
+                        <ul className="flew-row flex justify-between">
                             <li>
                                 {/* TODO: Make hover to 400 instead of 300. */}
                                 <a href="#work-anchor">
