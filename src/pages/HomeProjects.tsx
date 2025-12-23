@@ -12,11 +12,8 @@ import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
 import UIHeading3 from '../components/ui/headings/UIHeading3';
 
 const HomeProjects = () => {
-    // TODO: Showcase Cris'Alie website and emphasize it's a for professional purpose.
-    // TODO: Showcase this portfolio and include the Githup repository link.
-    // TODO: Showcase my fullstack task-manager "QuickTasks" and include the Githup repository link and the link to the live demo.
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-16">
+        <section className="mx-auto max-w-3xl px-8 pb-24">
             <UIHeading2 className="mb-8">Featured projects</UIHeading2>
 
             <div className="flex flex-row flex-wrap gap-4">
@@ -185,7 +182,6 @@ const HomeProjects = () => {
                     </div>
 
                     <div className="mt-auto flex flex-row gap-2">
-                        {/* TODO: Add link to this project live demo if there's one. */}
                         <a
                             href="https://quicktasks.up.railway.app/"
                             target="_blank"
@@ -197,7 +193,6 @@ const HomeProjects = () => {
                             </UISmallParagraph>
                         </a>
 
-                        {/* TODO: Add link to this project public Github repository if there's one. */}
                         <a
                             href="https://github.com/nathanEvrardDaCunha/quickTasks_front"
                             target="_blank"

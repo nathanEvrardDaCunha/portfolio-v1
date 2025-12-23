@@ -1,3 +1,4 @@
+import Footer from './Footer';
 import HomeEducation from './HomeEducation';
 import HomeHero from './HomeHero';
 import HomeProjects from './HomeProjects';
@@ -28,7 +29,7 @@ const Home = () => {
 
             <HomeProjects />
 
-            {/* TODO: Add footer with copyright and automatic-up-to-date expiring date */}
+            <Footer />
         </div>
     );
 };

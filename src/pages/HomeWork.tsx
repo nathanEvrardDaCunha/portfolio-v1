@@ -10,12 +10,6 @@ import UIHeading3 from '../components/ui/headings/UIHeading3';
 
 const HomeWork = () => {
     // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
-    // TODO: Match the work description of each job with the work description on my portfolio
-
-    // TODO: Standardize gap (ex: gap-4, gap-5...)
-    // TODO: Standardize rounded (ex: rounded-sm, rounded-lg...)
-
-    // TODO: Tweak image loading strategy and priority to enhance Lighthouse score.
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
             <UIHeading2 className="mb-8">Professional experiences</UIHeading2>

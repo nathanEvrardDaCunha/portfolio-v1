@@ -32,10 +32,8 @@ const HomeHero = () => {
                     </UIParagraph>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                        {/* TODO: Make this link look like a button. */}
                         {/* TODO: Redirect to a .pdf page where my resume reside. */}
                         {/* TODO: Create a resume without any job title but only the relevant informations. */}
-                        {/* TODO: Add download icon to this button. */}
                         <a
                             href="#"
                             target="_blank"
