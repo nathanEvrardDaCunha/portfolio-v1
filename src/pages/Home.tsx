@@ -1,4 +1,5 @@
 import Footer from './Footer';
+import Header from './Header';
 import HomeEducation from './HomeEducation';
 import HomeHero from './HomeHero';
 import HomeProjects from './HomeProjects';
@@ -14,10 +15,9 @@ const Home = () => {
 
     return (
         <div className="bg-neutral-50 dark:bg-neutral-900">
-            {/* TODO: Create a small header with a navbar to help keyboard user navigate the site more quickly. */}
-            {/* TODO: Add switch light/dark mode in header. */}
             {/* TODO: Add toggle english/french mode in header ? */}
-            {/* TODO: Make glass effect on header when hover other page elements ? */}
+
+            <Header />
 
             <HomeHero />
 

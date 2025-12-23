@@ -9,7 +9,6 @@ import UIStrong from '../components/ui/paragraphs/UIStrong';
 
 // To put in one file:
 // TODO: Search border-neutral and standardize them.
-// TODO: Search
 
 const HomeHero = () => {
     return (

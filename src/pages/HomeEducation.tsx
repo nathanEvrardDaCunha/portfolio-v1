@@ -11,7 +11,7 @@ import UISmallLightParagraph from '../components/ui/paragraphs/UISmallLightParag
 
 const HomeEducation = () => {
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-16">
+        <section className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="education-anchor">
             <UIHeading2 className="mb-8">Degrees and training</UIHeading2>
 
             <div className="relative flex flex-col gap-8">

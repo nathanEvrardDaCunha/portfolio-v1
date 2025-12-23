@@ -22,7 +22,7 @@ import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
 const HomeTechStack = () => {
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-16">
+        <section className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="stack-anchor">
             <UIHeading2 className="mb-8">Tech Stack</UIHeading2>
 
             <div className="mb-8 flex flex-col gap-4">

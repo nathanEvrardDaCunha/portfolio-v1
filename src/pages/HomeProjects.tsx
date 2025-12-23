@@ -15,12 +15,12 @@ import UIHeading3 from '../components/ui/headings/UIHeading3';
 
 const HomeProjects = () => {
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-24">
+        <section className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="projects-anchor">
             <UIHeading2 className="mb-8">Featured projects</UIHeading2>
 
             <div className="flex flex-row flex-wrap gap-4">
                 {/* TODO: Add some color in lightmode bg too. */}
-                {/* TODO: Standardize color in a rulebook */}
+                {/* TODO: Standardize color in a rulebook => Create own custom color based on those of tailwind (ex: "text-light-normal") */}
                 <article className="flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800">
                     <UIImage
                         src={crisalieDesktop}
