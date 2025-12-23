@@ -5,8 +5,6 @@ interface UILightParagraphProps extends React.HTMLAttributes<HTMLParagraphElemen
     children: string;
 }
 
-// mb-4
-
 const UILightParagraph = ({ children, className, ...props }: UILightParagraphProps) => {
     return (
         <p

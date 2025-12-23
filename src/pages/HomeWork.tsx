@@ -1,15 +1,15 @@
 //TODO: Optimize images with WebP for LightHouse
 import UIHeading2 from '../components/ui/headings/UIHeading2';
-import UITimelineDate from '../components/blocks/timeline/UITimelineDate';
 import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
 import adiosLogo from '../images/adios_logo.jpg';
 import UIOutsideList from '../components/ui/lists/UIOutsideList';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
 import UIHeading3 from '../components/ui/headings/UIHeading3';
+import UISmallLightTime from '../components/ui/paragraphs/UISmallLightTime';
+import UISmallLightParagraph from '../components/ui/paragraphs/UISmallLightParagraph';
 
 const HomeWork = () => {
-    // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
     return (
         <section className="mx-auto max-w-3xl px-8 pb-16">
             <UIHeading2 className="mb-8">Professional experiences</UIHeading2>
@@ -19,20 +19,22 @@ const HomeWork = () => {
 
                 <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200">
                     <article className="flex flex-row gap-5">
-                        <UITimelineLogo
-                            src={adiosLogo}
-                            alt={'Institut ADIOS business logo.'}
-                            loading={'eager'}
-                            fetchPriority={'high'}
-                            width={48}
-                            height={48}
-                        />
+                        <a href="https://institutadios.com/" className="z-10 aspect-square h-12 w-12" target="_blank">
+                            <UITimelineLogo
+                                src={adiosLogo}
+                                alt={'Institut ADIOS business logo.'}
+                                loading={'eager'}
+                                fetchPriority={'high'}
+                                width={48}
+                                height={48}
+                            />
+                        </a>
 
                         <div className="flex flex-col">
                             <div className="flex flex-row gap-1">
-                                <UITimelineDate dateTime="2022-02">02/2022</UITimelineDate>
-                                <p className="text-[12px] text-neutral-700">-</p>
-                                <UITimelineDate dateTime="2022-05">05/2022</UITimelineDate>
+                                <UISmallLightTime dateTime="2022-02">02/2022</UISmallLightTime>
+                                <UISmallLightParagraph>-</UISmallLightParagraph>
+                                <UISmallLightTime dateTime="2022-05">05/2022</UISmallLightTime>
                             </div>
 
                             <UIHeading3>Institut ADIOS</UIHeading3>
