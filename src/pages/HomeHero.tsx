@@ -6,6 +6,7 @@ import UIImage from '../components/ui/UIImage';
 import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UIStrong from '../components/ui/paragraphs/UIStrong';
+import EvrardNathanResume from '../documents/evrard-nathan-resume.pdf';
 
 // To put in one file:
 // TODO: Search border-neutral and standardize them.
@@ -39,9 +40,10 @@ const HomeHero = () => {
                         {/* TODO: Create a resume without any job title but only the relevant informations. */}
                         {/* TODO: Create UIButtonIcon and UIHollowButtonIcon ? */}
                         <a
-                            href="#"
+                            href={EvrardNathanResume}
                             target="_blank"
                             className="flex w-fit flex-row items-center gap-3 rounded-sm border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-sm hover:bg-neutral-200 dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-neutral-800"
+                            download
                         >
                             <UIParagraph>Resume</UIParagraph>
                             <FileDown className="h-4 w-4 text-neutral-950 dark:text-neutral-50" />

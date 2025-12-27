@@ -89,7 +89,7 @@ const HomeProjects = () => {
                     <div className="mt-auto flex flex-row gap-2">
                         {/* TODO: Make sure the link is the right one when Cris'Alie will finally be in production. */}
                         <a
-                            href="https://crisalie.com"
+                            href="https://www.crisalie.fr/"
                             target="_blank"
                             className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800 dark:bg-neutral-50 dark:hover:bg-neutral-200"
                         >
