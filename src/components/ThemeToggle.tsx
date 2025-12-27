@@ -6,7 +6,6 @@ import clsx from 'clsx';
 const ThemeToggle = ({ className }: { className?: string }) => {
     const [isDark, setIsDark] = useState(false);
 
-    // On mount, check the initial theme
     useEffect(() => {
         const theme = localStorage.getItem('theme');
         const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
