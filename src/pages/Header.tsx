@@ -1,3 +1,4 @@
+import ThemeToggle from '../components/ThemeToggle';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
 
 // TODO: See if tabindex is needed for logical keyboard navigation or not.
@@ -43,7 +44,7 @@ const Header = () => {
                         </ul>
                     </nav>
 
-                    {/* <ThemeToggle /> */}
+                    <ThemeToggle />
                 </div>
             </div>
         </section>
