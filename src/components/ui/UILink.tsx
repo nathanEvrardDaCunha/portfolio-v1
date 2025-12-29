@@ -7,7 +7,6 @@ interface UILinkProps extends React.HTMLAttributes<HTMLAnchorElement> {
     target?: '_blank';
 }
 
-// TODO: Replace <a with UILink ?
 const UILink = ({ children, href, target = '_blank', className, ...props }: UILinkProps) => {
     return (
         <a href={href} target={target} className={twMerge(clsx(''), className)} {...props}>

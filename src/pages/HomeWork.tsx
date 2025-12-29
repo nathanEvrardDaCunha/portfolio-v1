@@ -7,6 +7,7 @@ import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
 import UIHeading3 from '../components/ui/headings/UIHeading3';
 import UISmallLightTime from '../components/ui/paragraphs/UISmallLightTime';
 import UISmallLightParagraph from '../components/ui/paragraphs/UISmallLightParagraph';
+import UILink from '../components/ui/UILink';
 
 const HomeWork = () => {
     return (
@@ -18,7 +19,7 @@ const HomeWork = () => {
 
                 <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <article className="flex flex-row gap-5">
-                        <a href="https://institutadios.com/" className="z-10 aspect-square h-12 w-12" target="_blank">
+                        <UILink href={'https://institutadios.com/'} className="z-10 aspect-square h-12 w-12">
                             <UITimelineLogo
                                 src={adiosLogo}
                                 alt={'Institut ADIOS business logo.'}
@@ -27,7 +28,7 @@ const HomeWork = () => {
                                 width={48}
                                 height={48}
                             />
-                        </a>
+                        </UILink>
 
                         <div className="flex flex-col">
                             <div className="flex flex-row gap-1">
