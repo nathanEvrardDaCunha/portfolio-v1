@@ -3,8 +3,6 @@ import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
-// TODO: When :hover, fill the background with the same color as border ?
-
 const Footer = () => {
     return (
         // TODO: Change copyright website name when in production.

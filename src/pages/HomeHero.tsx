@@ -8,9 +8,6 @@ import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UIStrong from '../components/ui/paragraphs/UIStrong';
 import EvrardNathanResume from '../documents/evrard-nathan-resume.pdf';
 
-// To put in one file:
-// TODO: Search border-neutral and standardize them.
-
 const HomeHero = () => {
     return (
         <section className="mx-auto max-w-3xl px-8 py-16">
@@ -36,13 +33,11 @@ const HomeHero = () => {
                     </UIParagraph>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                        {/* TODO: Redirect to a .pdf page where my resume reside. */}
-                        {/* TODO: Create a resume without any job title but only the relevant informations. */}
                         {/* TODO: Create UIButtonIcon and UIHollowButtonIcon ? */}
                         <a
                             href={EvrardNathanResume}
                             target="_blank"
-                            className="flex w-fit flex-row items-center gap-3 rounded-sm border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-sm hover:bg-neutral-200 dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-neutral-800"
+                            className="flex w-fit flex-row items-center gap-3 rounded-sm border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-sm hover:bg-neutral-300 dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-neutral-700"
                             download
                         >
                             <UIParagraph>Resume</UIParagraph>

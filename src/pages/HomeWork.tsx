@@ -1,4 +1,3 @@
-//TODO: Optimize images with WebP for LightHouse
 import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
 import adiosLogo from '../images/adios_logo.jpg';

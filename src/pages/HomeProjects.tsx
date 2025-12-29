@@ -1,7 +1,5 @@
 import { Globe } from 'lucide-react';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
-
-//TODO: Optimize images with WebP for LightHouse
 import quickTaskDesktop from '../images/quick-task-desktop.png';
 import crisalieDesktop from '../images/crisalie-desktop.png';
 import UIHeading2 from '../components/ui/headings/UIHeading2';
@@ -20,7 +18,6 @@ const HomeProjects = () => {
 
             <div className="flex flex-row flex-wrap gap-4">
                 {/* TODO: Add some color in lightmode bg too. */}
-                {/* TODO: Standardize color in a rulebook => Create own custom color based on those of tailwind (ex: "text-light-normal") */}
                 <article className="flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800">
                     <UIImage
                         src={crisalieDesktop}
@@ -87,7 +84,6 @@ const HomeProjects = () => {
                     </div>
 
                     <div className="mt-auto flex flex-row gap-2">
-                        {/* TODO: Make sure the link is the right one when Cris'Alie will finally be in production. */}
                         <a
                             href="https://www.crisalie.fr/"
                             target="_blank"

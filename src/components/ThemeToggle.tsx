@@ -37,7 +37,7 @@ const ThemeToggle = ({ className }: { className?: string }) => {
             aria-label="Toggle dark mode"
             className={twMerge(
                 clsx(
-                    'flex h-9 w-9 items-center justify-center rounded-lg border border-neutral-300 bg-neutral-50 transition-colors hover:bg-neutral-200 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800'
+                    'flex h-9 w-9 items-center justify-center rounded-lg border border-neutral-300 bg-neutral-50 transition-colors hover:bg-neutral-200 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:bg-neutral-700'
                 ),
                 className
             )}
