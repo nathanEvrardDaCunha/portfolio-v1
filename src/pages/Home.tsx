@@ -7,8 +7,6 @@ import HomeTechStack from './HomeTechStack';
 import HomeWork from './HomeWork';
 
 const Home = () => {
-    // TODO: Use proper html semantic structure with <h1>, <h2>...
-
     return (
         <div className="bg-neutral-100 dark:bg-neutral-900">
             {/* TODO: Add toggle english/french mode in header ? */}

@@ -8,6 +8,7 @@ import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UIStrong from '../components/ui/paragraphs/UIStrong';
 import EvrardNathanResume from '../documents/evrard-nathan-resume.pdf';
 import UILink from '../components/ui/UILink';
+import UIHeading1 from '../components/ui/headings/UIHeading1';
 
 const HomeHero = () => {
     return (
@@ -24,7 +25,7 @@ const HomeHero = () => {
                 />
 
                 <div className="flex flex-col gap-5">
-                    <UIHeading2>Hi Nathan here.</UIHeading2>
+                    <UIHeading1>Hi Nathan here.</UIHeading1>
 
                     <UIParagraph>22 years old frontend developper from France 🇫🇷</UIParagraph>
 
