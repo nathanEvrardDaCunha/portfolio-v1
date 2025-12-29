@@ -7,6 +7,7 @@ import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UIStrong from '../components/ui/paragraphs/UIStrong';
 import EvrardNathanResume from '../documents/evrard-nathan-resume.pdf';
+import UILink from '../components/ui/UILink';
 
 const HomeHero = () => {
     return (
@@ -33,31 +34,29 @@ const HomeHero = () => {
                     </UIParagraph>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                        {/* TODO: Create UIButtonIcon and UIHollowButtonIcon ? */}
-                        <a
+                        <UILink
                             href={EvrardNathanResume}
-                            target="_blank"
-                            className="flex w-fit flex-row items-center gap-3 rounded-sm border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-sm hover:bg-neutral-300 dark:border-neutral-700 dark:bg-neutral-900 dark:hover:bg-neutral-700"
-                            download
+                            className="flex w-fit flex-row items-center gap-3 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-md hover:bg-neutral-300 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:bg-neutral-700"
                         >
                             <UIParagraph>Resume</UIParagraph>
                             <FileDown className="h-4 w-4 text-neutral-950 dark:text-neutral-50" />
-                        </a>
+                        </UILink>
 
                         <div className="flex flex-row gap-4">
-                            <a href="https://www.linkedin.com/in/nathan-evrard/" target="_blank">
+                            <UILink href={'https://www.linkedin.com/in/nathan-evrard/'}>
                                 <UILinkedInIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300" />
-                            </a>
-                            <a href="https://github.com/nathanEvrardDaCunha" target="_blank">
-                                <UIGitHubIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300" />
-                            </a>
+                            </UILink>
 
-                            <a href="mailto:nathan.evrarddacunha@proton.me" target="_blank">
+                            <UILink href={'https://github.com/nathanEvrardDaCunha'}>
+                                <UIGitHubIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300" />
+                            </UILink>
+
+                            <UILink href={'mailto:nathan.evrarddacunha@proton.me'}>
                                 <Mail
                                     strokeWidth={2}
                                     className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300"
                                 />
-                            </a>
+                            </UILink>
                         </div>
                     </div>
                 </div>

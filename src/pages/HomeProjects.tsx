@@ -17,8 +17,7 @@ const HomeProjects = () => {
             <UIHeading2 className="mb-8">Featured projects</UIHeading2>
 
             <div className="flex flex-row flex-wrap gap-4">
-                {/* TODO: Add some color in lightmode bg too. */}
-                <article className="flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800">
+                <article className="0 flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <UIImage
                         src={crisalieDesktop}
                         alt="Showcase of the home hero section of the volunteering showcase site of Cris'Alie."
@@ -40,44 +39,44 @@ const HomeProjects = () => {
                         </UIParagraph>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>React</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>TypeScript</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>JavaScript</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Tailwind CSS</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>HTML5</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>CSS3</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Responsive Design</UISmallParagraph>
                             </li>
 
                             {/* TODO: Also add SEO tag in project and Tech Stack for performances reasons (like Lighthouse) or is it too much ? */}
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Accessibility</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Git</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>GitHub</UISmallParagraph>
                             </li>
                         </ul>
@@ -87,7 +86,7 @@ const HomeProjects = () => {
                         <a
                             href="https://www.crisalie.fr/"
                             target="_blank"
-                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800 dark:bg-neutral-50 dark:hover:bg-neutral-200"
+                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50 dark:text-neutral-950" />
                             <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">
@@ -97,7 +96,7 @@ const HomeProjects = () => {
                     </div>
                 </article>
 
-                <article className="flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800">
+                <article className="0 flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <UIImage
                         src={quickTaskDesktop}
                         alt="Showcase of the inteface panel of the personal task manager project named QuickTask."
@@ -119,63 +118,63 @@ const HomeProjects = () => {
                         </UIParagraph>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>React</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>TypeScript</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>JavaScript</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>SASS/SCSS</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>HTML5</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>CSS3</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Responsive Design</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Accessibility</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Git</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>GitHub</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Node.js</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Express</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>API RESTful</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>PostgreSQL</UISmallParagraph>
                             </li>
 
-                            <li className="rounded-sm bg-neutral-200 px-2 py-1 dark:bg-neutral-700">
+                            <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>SQL</UISmallParagraph>
                             </li>
                         </ul>
@@ -185,7 +184,7 @@ const HomeProjects = () => {
                         <a
                             href="https://quicktasks.up.railway.app/"
                             target="_blank"
-                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800 dark:bg-neutral-50 dark:hover:bg-neutral-200"
+                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300"
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50 dark:text-neutral-950" />
                             <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">
@@ -196,7 +195,7 @@ const HomeProjects = () => {
                         <a
                             href="https://github.com/nathanEvrardDaCunha/quickTasks_front"
                             target="_blank"
-                            className="flex flex-row items-center gap-2 rounded-sm bg-neutral-950 px-2 py-1 hover:bg-neutral-800 dark:bg-neutral-50 dark:hover:bg-neutral-200"
+                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300"
                         >
                             <UIGitHubIcon className="h-4 w-4 text-neutral-50 dark:text-neutral-950" />
                             <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">

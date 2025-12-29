@@ -16,7 +16,7 @@ const HomeEducation = () => {
             <div className="relative flex flex-col gap-8">
                 <div className="absolute top-0 bottom-0 left-10 w-0.5 bg-neutral-300 dark:bg-neutral-700"></div>
 
-                <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800">
+                <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <article className="flex flex-row gap-8">
                         <a href="https://www.esgi.fr/" className="z-10 aspect-square h-12 w-12" target="_blank">
                             <UITimelineLogo
