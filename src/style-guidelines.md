@@ -1,14 +1,51 @@
 
+
+-px ?
+-py ?
+- mx ?
+- my ?
+
 ## Colors Rulesets
-### Dark Interactive
-- dark:hover:bg-neutral-700
-- dark:border-neutral-700
-- dark:bg-neutral-950
+***dark:hover:bg-neutral-:***
+- 50
+- 300
+- 700
+- 950
 
-### Light Interactive
-- hover:bg-neutral-300
-- border-neutral-300
-- bg-neutral-50
+***dark:border-neutral-:***
+- 50
+- 300
+- 700
+- 950
 
-- rounded-lg
-- shadow-sm
+***dark:bg-neutral-:***
+- 50
+- 300
+- 700
+- 950
+
+***hover:bg-neutral-:***
+- 50
+- 300
+- 700
+- 950
+
+***border-neutral-:***
+- 50
+- 300
+- 700
+- 950
+
+***bg-neutral-:***
+- 50
+- 300
+- 700
+- 950
+
+
+## Effects Rulesets
+***rounded-:***
+- lg
+
+***shadow-:***
+- md
