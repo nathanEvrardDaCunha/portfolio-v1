@@ -7,7 +7,10 @@ interface UIHeading3Props extends React.HTMLAttributes<HTMLHeadingElement> {
 
 const UIHeading3 = ({ children, className, ...props }: UIHeading3Props) => {
     return (
-        <h3 className={twMerge(clsx('text-lg font-bold text-neutral-950 dark:text-neutral-50'), className)} {...props}>
+        <h3
+            className={twMerge(clsx('text-lg font-bold text-neutral-950', 'dark:text-neutral-50'), className)}
+            {...props}
+        >
             {children}
         </h3>
     );

@@ -8,7 +8,7 @@ interface UILightParagraphProps extends React.HTMLAttributes<HTMLParagraphElemen
 const UILightParagraph = ({ children, className, ...props }: UILightParagraphProps) => {
     return (
         <p
-            className={twMerge(clsx('text-base font-normal text-neutral-700 dark:text-neutral-300'), className)}
+            className={twMerge(clsx('text-base font-normal text-neutral-700', 'dark:text-neutral-300'), className)}
             {...props}
         >
             {children}

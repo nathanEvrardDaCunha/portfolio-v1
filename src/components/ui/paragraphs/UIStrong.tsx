@@ -7,7 +7,7 @@ interface UIStrongProps extends React.HTMLAttributes<HTMLParagraphElement> {
 
 const UIStrong = ({ children, className, ...props }: UIStrongProps) => {
     return (
-        <strong className={twMerge(clsx('font-black text-blue-700 dark:text-blue-300'), className)} {...props}>
+        <strong className={twMerge(clsx('font-black text-blue-700', 'dark:text-blue-300'), className)} {...props}>
             {children}
         </strong>
     );

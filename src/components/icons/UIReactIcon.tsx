@@ -12,7 +12,7 @@ const UIReactIcon: React.FC<UIReactIconProps> = ({ className = 'h-6 w-6' }) => {
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            className={twMerge(clsx('text-neutral-950 dark:text-neutral-50'), className)}
+            className={twMerge(clsx('text-neutral-950', 'dark:text-neutral-50'), className)}
             aria-label="React"
         >
             <title>React</title>

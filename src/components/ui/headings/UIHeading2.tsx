@@ -7,7 +7,10 @@ interface UIHeading2Props extends React.HTMLAttributes<HTMLHeadingElement> {
 
 const UIHeading2 = ({ children, className, ...props }: UIHeading2Props) => {
     return (
-        <h2 className={twMerge(clsx('text-2xl font-bold text-neutral-950 dark:text-neutral-50'), className)} {...props}>
+        <h2
+            className={twMerge(clsx('text-2xl font-bold text-neutral-950', 'dark:text-neutral-50'), className)}
+            {...props}
+        >
             {children}
         </h2>
     );

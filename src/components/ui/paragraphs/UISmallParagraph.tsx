@@ -8,7 +8,7 @@ interface UISmallParagraphProps extends React.HTMLAttributes<HTMLParagraphElemen
 const UISmallParagraph = ({ children, className, ...props }: UISmallParagraphProps) => {
     return (
         <p
-            className={twMerge(clsx('text-[12px] font-medium text-neutral-950 dark:text-neutral-50'), className)}
+            className={twMerge(clsx('text-[12px] font-medium text-neutral-950', 'dark:text-neutral-50'), className)}
             {...props}
         >
             {children}

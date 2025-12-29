@@ -10,7 +10,7 @@ const UISmallLightTime = ({ children, className, dateTime, ...props }: UISmallLi
     return (
         <time
             dateTime={dateTime}
-            className={twMerge(clsx('text-[12px] font-normal text-neutral-700 dark:text-neutral-300'), className)}
+            className={twMerge(clsx('text-[12px] font-normal text-neutral-700', 'dark:text-neutral-300'), className)}
             {...props}
         >
             {children}
