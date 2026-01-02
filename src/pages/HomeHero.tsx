@@ -3,7 +3,6 @@ import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
 import protraitImage from '../../src/images/portrait.jpg';
 import UIImage from '../components/ui/UIImage';
-import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UIStrong from '../components/ui/paragraphs/UIStrong';
 import EvrardNathanResume from '../documents/evrard-nathan-resume.pdf';
@@ -27,11 +26,11 @@ const HomeHero = () => {
                 <div className="flex flex-col gap-5">
                     <UIHeading1>Hi Nathan here.</UIHeading1>
 
-                    <UIParagraph>22 years old frontend developper from France 🇫🇷</UIParagraph>
+                    <UIParagraph>22 years old frontend developer from France 🇫🇷</UIParagraph>
 
                     <UIParagraph>
-                        Specialized in the <UIStrong>JavaScript</UIStrong> ecosystem. I build frontend (and sometimes
-                        fullstack) applications with <UIStrong>TypeScript</UIStrong> and <UIStrong>React</UIStrong>.
+                        Specialized in the <UIStrong>JavaScript</UIStrong> ecosystem. I build front-end (and sometimes
+                        full-stack) applications using <UIStrong>TypeScript</UIStrong> and <UIStrong>React</UIStrong>.
                     </UIParagraph>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">

@@ -18,7 +18,7 @@ const HomeProjects = () => {
                 <article className="0 flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <UIImage
                         src={crisalieDesktop}
-                        alt="Showcase of the home hero section of the volunteering showcase site of Cris'Alie."
+                        alt="Showcase of the Home Hero section on the Cris'Alie volunteering showcase site."
                         className="mb-8 h-48 w-full object-cover"
                         loading={'lazy'}
                         fetchPriority={'auto'}
@@ -32,8 +32,8 @@ const HomeProjects = () => {
                         <UILightParagraph className="mb-6">Volunteering</UILightParagraph>
 
                         <UIParagraph className="mb-6">
-                            Design, build and put into production from A to Z the showcase site of Cris'Alie, a Narbonne
-                            sales shop, to make them visible online.
+                            Designing, developing, and deploying in production, from A to Z, Cris' Alie showcases
+                            websites to enhance their online presence.
                         </UIParagraph>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">
@@ -98,7 +98,7 @@ const HomeProjects = () => {
                 <article className="0 flex min-w-3xs flex-1 flex-col rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <UIImage
                         src={quickTaskDesktop}
-                        alt="Showcase of the inteface panel of the personal task manager project named QuickTask."
+                        alt="Demonstration of the interface panel for the QuickTask personal task manager project."
                         className="mb-8 h-48 w-full object-cover"
                         loading={'lazy'}
                         fetchPriority={'auto'}
@@ -112,8 +112,8 @@ const HomeProjects = () => {
                         <UILightParagraph className="mb-6">Personal</UILightParagraph>
 
                         <UIParagraph className="mb-6">
-                            Develop and put online a Full Stack task manager, suitable for visually impaired people and
-                            with secure authentication.
+                            Building and deploying an online task management system that is suitable for visually
+                            impaired individuals and offers secure authentication.
                         </UIParagraph>
 
                         <ul className="mb-6 flex flex-row flex-wrap gap-1">

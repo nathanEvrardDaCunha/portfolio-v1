@@ -26,7 +26,7 @@ const HomeTechStack = () => {
             <UIHeading2 className="mb-8">Tech Stack</UIHeading2>
 
             <div className="mb-8 flex flex-col gap-4">
-                <UIHeading3>Front End</UIHeading3>
+                <UIHeading3>Front-End</UIHeading3>
 
                 <UITechs>
                     <UITech>
@@ -77,7 +77,7 @@ const HomeTechStack = () => {
             </div>
 
             <div className="mb-8 flex flex-col gap-4">
-                <UIHeading3>Back End</UIHeading3>
+                <UIHeading3>Back-End</UIHeading3>
 
                 <UITechs>
                     <UITech>

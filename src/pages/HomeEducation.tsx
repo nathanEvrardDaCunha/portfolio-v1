@@ -25,7 +25,7 @@ const HomeEducation = () => {
                         >
                             <UITimelineLogo
                                 src={esgiLogo}
-                                alt={'ESGI school logo.'}
+                                alt={'Business logo for ESGI school.'}
                                 loading={'eager'}
                                 fetchPriority={'high'}
                                 width={48}
@@ -50,18 +50,19 @@ const HomeEducation = () => {
                             <UIOutsideList>
                                 <li>
                                     <UIParagraph>
-                                        Full-stack development with TypeScript, React, Node.js and Express.
+                                        Developing and publishing full-stack applications using TypeScript, React,
+                                        Node.js, and Express.
                                     </UIParagraph>
                                 </li>
                                 <li>
                                     <UIParagraph>
-                                        Relational databases: design, querying and administration (SQL, PostgreSQL,
-                                        MySQL).
+                                        Designing, querying, and managing relational databases using SQL, PostgreSQL,
+                                        and MySQL.
                                     </UIParagraph>
                                 </li>
                                 <li>
                                     <UIParagraph>
-                                        DevOps and collaboration: containerisation (Docker), versioning (Git, GitHub).
+                                        Deploying, collaborating, containerizing and versioning using GitHub and Docker.
                                     </UIParagraph>
                                 </li>
                             </UIOutsideList>

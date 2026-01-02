@@ -25,7 +25,7 @@ const HomeWork = () => {
                         >
                             <UITimelineLogo
                                 src={adiosLogo}
-                                alt={'Institut ADIOS business logo.'}
+                                alt={'Business logo for Institut ADIOS.'}
                                 loading={'eager'}
                                 fetchPriority={'high'}
                                 width={48}
@@ -45,33 +45,33 @@ const HomeWork = () => {
 
                             <UIHeading3>Institut ADIOS</UIHeading3>
 
-                            <UILightParagraph className="mb-4">Internship as Web Developer</UILightParagraph>
+                            <UILightParagraph className="mb-4">Internship as a Web Developer</UILightParagraph>
 
                             <UIOutsideList>
                                 <li>
                                     <UIParagraph>
-                                        Design of an automated workflow (Zapier, JavaScript scripts) reducing the
-                                        operational burden of the secretariat by 30%.
+                                        Designing an automated workflow using Zapier and JavaScript scripts to decrease
+                                        the secretariat's operational burden by 30%.
                                     </UIParagraph>
                                 </li>
 
                                 <li>
                                     <UIParagraph>
-                                        Development of an interactive form with Tally, improving user experience and
+                                        Developing an interactive form using Tally to enhance user experience and
                                         completion rate.
                                     </UIParagraph>
                                 </li>
 
                                 <li>
                                     <UIParagraph>
-                                        Visual redesign of WordPress articles and strategic integration of CTA to
+                                        Redesigning WordPress articles visually and strategically integrating CTAs to
                                         optimize conversion.
                                     </UIParagraph>
                                 </li>
 
                                 <li>
                                     <UIParagraph>
-                                        Mentorship of an intern on the company’s automation practices and workflows.
+                                        Mentoring of an intern on the company’s automation practices and workflows.
                                     </UIParagraph>
                                 </li>
                             </UIOutsideList>
