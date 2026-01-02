@@ -1,70 +1,85 @@
-//TODO: Optimize images with WebP for LightHouse
-import adiosLogo from '../images/adios_logo.jpg';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
+import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
+import adiosLogo from '../images/optimized/adios_logo.webp';
+import UIOutsideList from '../components/ui/lists/UIOutsideList';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
+import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
+import UIHeading3 from '../components/ui/headings/UIHeading3';
+import UISmallLightTime from '../components/ui/paragraphs/UISmallLightTime';
+import UISmallLightParagraph from '../components/ui/paragraphs/UISmallLightParagraph';
+import UILink from '../components/ui/UILink';
 
 const HomeWork = () => {
-    // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
-    // TODO: Match the work description of each job with the work description on my portfolio
-
-    // TODO: Standardize gap (ex: gap-4, gap-5...)
-    // TODO: Standardize rounded (ex: rounded-sm, rounded-lg...)
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Professional experiences</h2>
+        <main className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="work-anchor">
+            <UIHeading2 className="mb-8">Professional experiences</UIHeading2>
 
             <div className="relative flex flex-col gap-8">
-                <div className="absolute top-0 bottom-0 left-10 w-0.5 bg-neutral-300 dark:bg-neutral-600"></div>
+                <div className="absolute top-0 bottom-0 left-10 w-0.5 bg-neutral-300 dark:bg-neutral-700"></div>
 
-                <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200">
+                <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <article className="flex flex-row gap-5">
-                        {/* TODO: Replace alt proper image description. */}
-                        {/* TODO: Replace src with proper image. */}
-                        {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                        <img
-                            src={adiosLogo}
-                            alt="Alt img"
-                            className="z-10 aspect-square h-12 w-12 rounded-full border border-neutral-300 bg-neutral-50 object-cover hover:bg-neutral-200"
-                        />
+                        <UILink
+                            href={'https://institutadios.com/'}
+                            className="group z-10 aspect-square h-12 w-12 transition-all duration-300 ease-in-out hover:scale-110 focus:scale-110"
+                        >
+                            <UITimelineLogo
+                                src={adiosLogo}
+                                alt={'Business logo for Institut ADIOS.'}
+                                loading={'eager'}
+                                fetchPriority={'high'}
+                                width={48}
+                                height={48}
+                                className={
+                                    'transition-all duration-300 ease-in-out group-focus:opacity-85 hover:opacity-85'
+                                }
+                            />
+                        </UILink>
 
                         <div className="flex flex-col">
                             <div className="flex flex-row gap-1">
-                                <time dateTime="2022-02" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    02/2022
-                                </time>
-                                <p className="text-[12px] text-neutral-700">-</p>
-                                <time dateTime="2022-05" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    05/2022
-                                </time>
+                                <UISmallLightTime dateTime="2022-02">02/2022</UISmallLightTime>
+                                <UISmallLightParagraph>-</UISmallLightParagraph>
+                                <UISmallLightTime dateTime="2022-05">05/2022</UISmallLightTime>
                             </div>
 
-                            <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">Institut ADIOS</h3>
+                            <UIHeading3>Institut ADIOS</UIHeading3>
 
-                            <p className="mb-4 text-base text-neutral-700 dark:text-neutral-300">
-                                Internship as Web Developer
-                            </p>
+                            <UILightParagraph className="mb-4">Internship as a Web Developer</UILightParagraph>
 
-                            <ul className="ml-4 flex list-outside list-disc flex-col">
+                            <UIOutsideList>
                                 <li>
-                                    Design of an automated workflow (Zapier, JavaScript scripts) reducing the
-                                    operational burden of the secretariat by 30%.
+                                    <UIParagraph>
+                                        Designing an automated workflow using Zapier and JavaScript scripts to decrease
+                                        the secretariat's operational burden by 30%.
+                                    </UIParagraph>
                                 </li>
 
                                 <li>
-                                    Development of an interactive form with Tally, improving user experience and
-                                    completion rate.
+                                    <UIParagraph>
+                                        Developing an interactive form using Tally to enhance user experience and
+                                        completion rate.
+                                    </UIParagraph>
                                 </li>
 
                                 <li>
-                                    Visual redesign of WordPress articles and strategic integration of CTA to optimize
-                                    conversion.
+                                    <UIParagraph>
+                                        Redesigning WordPress articles visually and strategically integrating CTAs to
+                                        optimize conversion.
+                                    </UIParagraph>
                                 </li>
 
-                                <li>Mentorship of an intern on the company’s automation practices and workflows.</li>
-                            </ul>
+                                <li>
+                                    <UIParagraph>
+                                        Mentoring of an intern on the company’s automation practices and workflows.
+                                    </UIParagraph>
+                                </li>
+                            </UIOutsideList>
                         </div>
                     </article>
                 </div>
             </div>
-        </section>
+        </main>
     );
 };
 

@@ -1,3 +1,6 @@
+import clsx from 'clsx';
+import { twMerge } from 'tailwind-merge';
+
 interface UITypeScriptIconProps extends React.HTMLAttributes<HTMLElement> {
     className?: string;
 }
@@ -9,7 +12,7 @@ const UITypeScriptIcon: React.FC<UITypeScriptIconProps> = ({ className = 'h-6 w-
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            className={className}
+            className={twMerge(clsx('text-neutral-950', 'dark:text-neutral-50'), className)}
             aria-label="TypeScript"
         >
             <title>TypeScript</title>

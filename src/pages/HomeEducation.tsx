@@ -1,54 +1,71 @@
-//TODO: Optimize images with WebP for LightHouse
-import esgiLogo from '../images/esgi_logo.jpg';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
+import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
+import esgiLogo from '../images/optimized/esgi_logo.webp';
+import UIOutsideList from '../components/ui/lists/UIOutsideList';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
+import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
+import UIHeading3 from '../components/ui/headings/UIHeading3';
+import UISmallLightTime from '../components/ui/paragraphs/UISmallLightTime';
+import UISmallLightParagraph from '../components/ui/paragraphs/UISmallLightParagraph';
+import UILink from '../components/ui/UILink';
 
 const HomeEducation = () => {
-    // TODO: When the user click on the company where I work, redirect it (always in a new tab) to the official website of my previous employer.
-    // TODO: Match the work description of each job with the work description on my portfolio
-
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Degrees and training</h2>
+        <section className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="education-anchor">
+            <UIHeading2 className="mb-8">Degrees and training</UIHeading2>
 
             <div className="relative flex flex-col gap-8">
-                <div className="absolute top-0 bottom-0 left-10 w-0.5 bg-neutral-300 dark:bg-neutral-600"></div>
+                <div className="absolute top-0 bottom-0 left-10 w-0.5 bg-neutral-300 dark:bg-neutral-700"></div>
 
-                <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-sm hover:bg-neutral-200">
+                <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <article className="flex flex-row gap-8">
-                        {/* TODO: Replace alt proper image description. */}
-                        {/* TODO: Replace src with proper image. */}
-                        {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                        <img
-                            src={esgiLogo}
-                            alt="Alt img"
-                            className="z-10 aspect-square h-12 w-12 rounded-full border border-neutral-300 bg-neutral-50 object-cover hover:bg-neutral-200"
-                        />
+                        <UILink
+                            href={'https://www.esgi.fr/'}
+                            className="group z-10 aspect-square h-12 w-12 transition-all duration-300 ease-in-out hover:scale-110 focus:scale-110"
+                        >
+                            <UITimelineLogo
+                                src={esgiLogo}
+                                alt={'Business logo for ESGI school.'}
+                                loading={'eager'}
+                                fetchPriority={'high'}
+                                width={48}
+                                height={48}
+                                className={
+                                    'transition-all duration-300 ease-in-out group-focus:opacity-85 hover:opacity-85'
+                                }
+                            />
+                        </UILink>
 
                         <div className="flex flex-col">
                             <div className="flex flex-row gap-1">
-                                <time dateTime="2021-09" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    09/2021
-                                </time>
-                                <p className="text-[12px] text-neutral-700">-</p>
-                                <time dateTime="2024-09" className="text-[12px] text-neutral-700 dark:text-neutral-300">
-                                    09/2024
-                                </time>
+                                <UISmallLightTime dateTime="2021-09">09/2021</UISmallLightTime>
+                                <UISmallLightParagraph>-</UISmallLightParagraph>
+                                <UISmallLightTime dateTime="2024-09">09/2024</UISmallLightTime>
                             </div>
 
-                            <h3 className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
-                                Higher School of Computer Genius (ESGI) of Paris
-                            </h3>
+                            <UIHeading3>Higher School of Computer Genius (ESGI) of Paris</UIHeading3>
 
-                            <p className="mb-4 text-base font-normal text-neutral-700 dark:text-neutral-300">
-                                Software and network project manager
-                            </p>
+                            <UILightParagraph className="mb-4">Software and network project manager</UILightParagraph>
 
-                            <ul className="ml-4 flex list-outside list-disc flex-col">
-                                <li>Full-stack development with TypeScript, React, Node.js and Express.</li>
+                            <UIOutsideList>
                                 <li>
-                                    Relational databases: design, querying and administration (SQL, PostgreSQL, MySQL).
+                                    <UIParagraph>
+                                        Developing and publishing full-stack applications using TypeScript, React,
+                                        Node.js, and Express.
+                                    </UIParagraph>
                                 </li>
-                                <li>DevOps and collaboration: containerisation (Docker), versioning (Git, GitHub).</li>
-                            </ul>
+                                <li>
+                                    <UIParagraph>
+                                        Designing, querying, and managing relational databases using SQL, PostgreSQL,
+                                        and MySQL.
+                                    </UIParagraph>
+                                </li>
+                                <li>
+                                    <UIParagraph>
+                                        Deploying, collaborating, containerizing and versioning using GitHub and Docker.
+                                    </UIParagraph>
+                                </li>
+                            </UIOutsideList>
                         </div>
                     </article>
                 </div>

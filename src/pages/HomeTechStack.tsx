@@ -14,123 +14,128 @@ import UIReactIcon from '../components/icons/UIReactIcon';
 import UISassIcon from '../components/icons/UISassIcon';
 import UITailwindCSSIcon from '../components/icons/UITailwindCSSIcon';
 import UITypeScriptIcon from '../components/icons/UITypeScriptIcon';
+import UIHeading2 from '../components/ui/headings/UIHeading2';
+import UITechs from '../components/blocks/tech-stack/UITechs';
+import UITech from '../components/blocks/tech-stack/UITech';
+import UIHeading3 from '../components/ui/headings/UIHeading3';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 
 const HomeTechStack = () => {
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-16">
-            <h2 className="mb-8 text-2xl font-bold text-neutral-950 dark:text-neutral-50">Tech Stack</h2>
+        <section className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="stack-anchor">
+            <UIHeading2 className="mb-8">Tech Stack</UIHeading2>
 
             <div className="mb-8 flex flex-col gap-4">
-                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Front End</h3>
+                <UIHeading3>Front-End</UIHeading3>
 
-                <ul className="flex flex-row flex-wrap gap-6">
-                    <li className="flex flex-row gap-3">
+                <UITechs>
+                    <UITech>
                         <UIReactIcon />
-                        <p>React</p>
-                    </li>
+                        <UIParagraph>React</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UITypeScriptIcon />
-                        <p>TypeScript</p>
-                    </li>
+                        <UIParagraph>TypeScript</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIJavaScriptIcon />
-                        <p>JavaScript</p>
-                    </li>
+                        <UIParagraph>JavaScript</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UITailwindCSSIcon />
-                        <p>Tailwind CSS</p>
-                    </li>
+                        <UIParagraph>Tailwind CSS</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UISassIcon />
-                        <p>SASS/SCSS</p>
-                    </li>
+                        <UIParagraph>SASS/SCSS</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIHtmlIcon />
-                        <p>HTML5</p>
-                    </li>
+                        <UIParagraph>HTML5</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UICssIcon />
-                        <p>CSS3</p>
-                    </li>
+                        <UIParagraph>CSS3</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
-                        <MonitorSmartphone strokeWidth={1.5} />
-                        <p>Responsive Design</p>
-                    </li>
+                    <UITech>
+                        <MonitorSmartphone strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>Responsive Design</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
-                        <Accessibility strokeWidth={1.5} />
-                        <p>Accessibility</p>
-                    </li>
-                </ul>
+                    <UITech>
+                        <Accessibility strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>Accessibility</UIParagraph>
+                    </UITech>
+                </UITechs>
             </div>
 
             <div className="mb-8 flex flex-col gap-4">
-                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Back End</h3>
+                <UIHeading3>Back-End</UIHeading3>
 
-                <ul className="flex flex-row flex-wrap gap-6">
-                    <li className="flex flex-row gap-3">
+                <UITechs>
+                    <UITech>
                         <UINodeIcon />
-                        <p>Node.js</p>
-                    </li>
+                        <UIParagraph>Node.js</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIExpressIcon />
-                        <p>Express</p>
-                    </li>
+                        <UIParagraph>Express</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
-                        <ServerCog strokeWidth={1.5} />
-                        <p>API RESTful</p>
-                    </li>
+                    <UITech>
+                        <ServerCog strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>API RESTful</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIPostgreSQLIcon />
-                        <p>PostgreSQL</p>
-                    </li>
+                        <UIParagraph>PostgreSQL</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIMySQLIcon />
-                        <p>MySQL</p>
-                    </li>
+                        <UIParagraph>MySQL</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
-                        <Database strokeWidth={1.5} />
-                        <p>SQL</p>
-                    </li>
-                </ul>
+                    <UITech>
+                        <Database strokeWidth={1.5} className="text-neutral-950 dark:text-neutral-50" />
+                        <UIParagraph>SQL</UIParagraph>
+                    </UITech>
+                </UITechs>
             </div>
 
             <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-medium text-neutral-950 dark:text-neutral-50">Tools</h3>
+                <UIHeading3>Tools</UIHeading3>
 
-                <ul className="flex flex-row flex-wrap gap-6">
-                    <li className="flex flex-row gap-3">
+                <UITechs>
+                    <UITech>
                         <UIGitIcon />
-                        <p>Git</p>
-                    </li>
+                        <UIParagraph>Git</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIGitHubIcon />
-                        <p>GitHub</p>
-                    </li>
+                        <UIParagraph>GitHub</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UIDockerIcon />
-                        <p>Docker</p>
-                    </li>
+                        <UIParagraph>Docker</UIParagraph>
+                    </UITech>
 
-                    <li className="flex flex-row gap-3">
+                    <UITech>
                         <UILinuxIcon />
-                        <p>Linux</p>
-                    </li>
-                </ul>
+                        <UIParagraph>Linux</UIParagraph>
+                    </UITech>
+                </UITechs>
             </div>
         </section>
     );

@@ -1,60 +1,78 @@
 import { FileDown, Mail } from 'lucide-react';
 import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
+import protraitImage from '../../src/images/optimized/portrait.webp';
+import UIImage from '../components/ui/UIImage';
+import UIParagraph from '../components/ui/paragraphs/UIParagraph';
+import UIStrong from '../components/ui/paragraphs/UIStrong';
+import EvrardNathanResume from '../documents/evrard-nathan-resume.pdf';
+import UILink from '../components/ui/UILink';
+import UIHeading1 from '../components/ui/headings/UIHeading1';
 
 const HomeHero = () => {
     return (
         <section className="mx-auto max-w-3xl px-8 py-16">
             <div className="flex flex-col gap-8 sm:flex-row-reverse">
-                {/* TODO: Add clean image about myself */}
-                {/* TODO: Replace alt proper image description. */}
-                {/* TODO: Replace src with proper image. */}
-                {/* TODO: Tweak image loading strategy and priority to enhance Lighthouse score. */}
-                <img
-                    src="https://picsum.photos/200/260"
-                    className="aspect-auto h-fit w-fit rounded-lg shadow-md"
-                    alt="Alt img"
+                <UIImage
+                    src={protraitImage}
+                    alt="Portrait of EVRARD Nathan."
+                    className="aspect-auto h-64 w-fit rounded-lg"
+                    loading={'eager'}
+                    fetchPriority={'high'}
+                    width={192}
+                    height={256}
                 />
 
                 <div className="flex flex-col gap-5">
-                    <h1 className="text-2xl font-bold text-neutral-950 dark:text-neutral-50">Hi Nathan here.</h1>
+                    <UIHeading1>Hi Nathan here.</UIHeading1>
 
-                    <p className="text-base font-medium text-neutral-950 dark:text-neutral-50">
-                        22 years old frontend developper from France 🇫🇷
-                    </p>
+                    <UIParagraph>22 years old frontend developer from France 🇫🇷</UIParagraph>
 
-                    <p className="text-base font-medium text-neutral-950 dark:text-neutral-50">
-                        Specialized in the <strong className="font-black text-blue-700">JavaScript</strong> ecosystem. I
-                        build frontend (and sometimes fullstack) applications with{' '}
-                        <strong className="font-black text-blue-700">TypeScript</strong> and{' '}
-                        <strong className="font-black text-blue-700">React</strong>.
-                    </p>
+                    <UIParagraph>
+                        Specialized in the <UIStrong>JavaScript</UIStrong> ecosystem. I build front-end (and sometimes
+                        full-stack) applications using <UIStrong>TypeScript</UIStrong> and <UIStrong>React</UIStrong>.
+                    </UIParagraph>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                        {/* TODO: Make this link look like a button. */}
-                        {/* TODO: Redirect to a .pdf page where my resume reside. */}
-                        {/* TODO: Create a resume without any job title but only the relevant informations. */}
-                        {/* TODO: Add download icon to this button. */}
-                        <a
-                            href="#"
-                            target="_blank"
-                            className="flex w-fit flex-row items-center gap-3 rounded-sm border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-sm hover:bg-neutral-200"
+                        <UILink
+                            href={EvrardNathanResume}
+                            className={
+                                'flex w-fit flex-row items-center gap-3 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-md transition-all duration-300 ease-in-out hover:scale-110 hover:bg-neutral-300 focus:scale-110 focus:bg-neutral-300 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700'
+                            }
                         >
-                            <p className="text-sm font-medium text-neutral-950">Resume</p>
-                            <FileDown className="h-4 w-4 text-neutral-950" />
-                        </a>
+                            <UIParagraph>Resume</UIParagraph>
+                            <FileDown className="h-4 w-4 text-neutral-950 dark:text-neutral-50" />
+                        </UILink>
 
                         <div className="flex flex-row gap-4">
-                            <a href="https://www.linkedin.com/in/nathan-evrard/" target="_blank">
-                                <UILinkedInIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
-                            </a>
-                            <a href="https://github.com/nathanEvrardDaCunha" target="_blank">
-                                <UIGitHubIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
-                            </a>
+                            <UILink href={'https://www.linkedin.com/in/nathan-evrard/'} className={'group'}>
+                                <UILinkedInIcon
+                                    className={
+                                        'h-5 w-5 text-neutral-950 transition-all duration-300 ease-in-out group-focus:scale-110 group-focus:text-neutral-700 hover:scale-110 hover:text-neutral-700 dark:text-neutral-50 dark:group-focus:text-neutral-300 dark:hover:text-neutral-300'
+                                    }
+                                />
+                            </UILink>
 
-                            <a href="mailto:nathan.evrarddacunha@proton.me" target="_blank">
-                                <Mail strokeWidth={2} className="h-5 w-5 text-neutral-950 hover:text-neutral-700" />
-                            </a>
+                            <UILink href={'https://github.com/nathanEvrardDaCunha'} className={'group'}>
+                                <UIGitHubIcon
+                                    className={
+                                        'h-5 w-5 text-neutral-950 transition-all duration-300 ease-in-out group-focus:scale-110 group-focus:text-neutral-700 hover:scale-110 hover:text-neutral-700 dark:text-neutral-50 dark:group-focus:text-neutral-300 dark:hover:text-neutral-300'
+                                    }
+                                />
+                            </UILink>
+
+                            <UILink
+                                href={'mailto:nathan.evrarddacunha@proton.me'}
+                                className={'group'}
+                                aria-label="Send an email to nathan.evrarddacunha@proton.me."
+                            >
+                                <Mail
+                                    strokeWidth={2}
+                                    className={
+                                        'h-5 w-5 text-neutral-950 transition-all duration-300 ease-in-out group-focus:scale-110 group-focus:text-neutral-700 hover:scale-110 hover:text-neutral-700 dark:text-neutral-50 dark:group-focus:text-neutral-300 dark:hover:text-neutral-300'
+                                    }
+                                />
+                            </UILink>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,6 @@
+import clsx from 'clsx';
+import { twMerge } from 'tailwind-merge';
+
 interface UIHtmlIconProps extends React.HTMLAttributes<HTMLElement> {
     className?: string;
 }
@@ -9,7 +12,7 @@ const UIHtmlIcon: React.FC<UIHtmlIconProps> = ({ className = 'h-6 w-6' }) => {
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            className={className}
+            className={twMerge(clsx('text-neutral-950', 'dark:text-neutral-50'), className)}
             aria-label="HTML"
         >
             <title>HTML</title>
