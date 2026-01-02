@@ -1,7 +1,7 @@
 import { FileDown, Mail } from 'lucide-react';
 import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
-import protraitImage from '../../src/images/portrait.jpg';
+import protraitImage from '../../src/images/optimized/portrait.webp';
 import UIImage from '../components/ui/UIImage';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UIStrong from '../components/ui/paragraphs/UIStrong';
@@ -61,7 +61,11 @@ const HomeHero = () => {
                                 />
                             </UILink>
 
-                            <UILink href={'mailto:nathan.evrarddacunha@proton.me'} className={'group'}>
+                            <UILink
+                                href={'mailto:nathan.evrarddacunha@proton.me'}
+                                className={'group'}
+                                aria-label="Send an email to nathan.evrarddacunha@proton.me."
+                            >
                                 <Mail
                                     strokeWidth={2}
                                     className={

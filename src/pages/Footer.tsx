@@ -6,9 +6,9 @@ import UILink from '../components/ui/UILink';
 
 const Footer = () => {
     return (
-        <section className="mx-auto max-w-3xl px-8 pb-16">
+        <footer className="mx-auto max-w-3xl px-8 pb-16">
             <div className="flex flex-col justify-between border-t border-neutral-300 pt-12 sm:flex-row dark:border-neutral-700">
-                <UIParagraph className="mb-4">© {new Date().getFullYear()} nathan-evrard .fr</UIParagraph>
+                <UIParagraph className="mb-4">© {new Date().getFullYear()} nathan-evrard.fr</UIParagraph>
 
                 <div className="flex flex-row gap-4">
                     <UILink href={'https://www.linkedin.com/in/nathan-evrard/'} className="group">
@@ -26,7 +26,11 @@ const Footer = () => {
                         />
                     </UILink>
 
-                    <UILink href={'mailto:nathan.evrarddacunha@proton.me'} className="group">
+                    <UILink
+                        href={'mailto:nathan.evrarddacunha@proton.me'}
+                        className="group"
+                        aria-label="Send an email to nathan.evrarddacunha@proton.me."
+                    >
                         <Mail
                             strokeWidth={2}
                             className={
@@ -36,7 +40,7 @@ const Footer = () => {
                     </UILink>
                 </div>
             </div>
-        </section>
+        </footer>
     );
 };
 

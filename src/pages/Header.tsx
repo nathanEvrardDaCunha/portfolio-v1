@@ -3,7 +3,7 @@ import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
 
 const Header = () => {
     return (
-        <section className="bg-opacity-0 m sticky top-0 z-20 bg-neutral-100/75 bg-clip-padding backdrop-blur-sm backdrop-filter dark:bg-neutral-900/75">
+        <header className="bg-opacity-0 m sticky top-0 z-20 bg-neutral-100/75 bg-clip-padding backdrop-blur-sm backdrop-filter dark:bg-neutral-900/75">
             <div className="mx-auto max-w-3xl px-8">
                 <div className="flex flex-col justify-between gap-2 py-8 sm:flex-row">
                     <nav className="my-auto h-full w-full max-w-80">
@@ -61,7 +61,7 @@ const Header = () => {
                     <ThemeToggle />
                 </div>
             </div>
-        </section>
+        </header>
     );
 };
 

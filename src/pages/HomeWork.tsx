@@ -1,6 +1,6 @@
 import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
-import adiosLogo from '../images/adios_logo.jpg';
+import adiosLogo from '../images/optimized/adios_logo.webp';
 import UIOutsideList from '../components/ui/lists/UIOutsideList';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
@@ -11,7 +11,7 @@ import UILink from '../components/ui/UILink';
 
 const HomeWork = () => {
     return (
-        <section className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="work-anchor">
+        <main className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="work-anchor">
             <UIHeading2 className="mb-8">Professional experiences</UIHeading2>
 
             <div className="relative flex flex-col gap-8">
@@ -79,7 +79,7 @@ const HomeWork = () => {
                     </article>
                 </div>
             </div>
-        </section>
+        </main>
     );
 };
 

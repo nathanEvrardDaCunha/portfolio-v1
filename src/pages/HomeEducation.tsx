@@ -1,6 +1,6 @@
 import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UITimelineLogo from '../components/blocks/timeline/UITimelineLogo';
-import esgiLogo from '../images/esgi_logo.jpg';
+import esgiLogo from '../images/optimized/esgi_logo.webp';
 import UIOutsideList from '../components/ui/lists/UIOutsideList';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';

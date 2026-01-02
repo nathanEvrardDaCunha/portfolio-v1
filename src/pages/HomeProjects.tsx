@@ -1,7 +1,7 @@
 import { Globe } from 'lucide-react';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
-import quickTaskDesktop from '../images/quick-task-desktop.png';
-import crisalieDesktop from '../images/crisalie-desktop.png';
+import quickTaskDesktop from '../images/optimized/quick-task-desktop.webp';
+import crisalieDesktop from '../images/optimized/crisalie-desktop.webp';
 import UIHeading2 from '../components/ui/headings/UIHeading2';
 import UIImage from '../components/ui/UIImage';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
