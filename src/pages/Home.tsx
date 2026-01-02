@@ -9,8 +9,6 @@ import HomeWork from './HomeWork';
 const Home = () => {
     return (
         <div className="bg-neutral-100 dark:bg-neutral-900">
-            {/* TODO: Add toggle english/french mode in header ? */}
-
             <Header />
 
             <HomeHero />

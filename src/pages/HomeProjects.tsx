@@ -9,8 +9,6 @@ import UISmallParagraph from '../components/ui/paragraphs/UISmallParagraph';
 import UILightParagraph from '../components/ui/paragraphs/UILightParagraph';
 import UIHeading3 from '../components/ui/headings/UIHeading3';
 
-// TODO: Add animation to smoothen every pseudo:class ?
-
 const HomeProjects = () => {
     return (
         <section className="mx-auto max-w-3xl scroll-mt-24 px-8 pb-16" id="projects-anchor">
@@ -67,7 +65,6 @@ const HomeProjects = () => {
                                 <UISmallParagraph>Responsive Design</UISmallParagraph>
                             </li>
 
-                            {/* TODO: Also add SEO tag in project and Tech Stack for performances reasons (like Lighthouse) or is it too much ? */}
                             <li className="rounded-lg bg-neutral-300 px-2 py-1 dark:bg-neutral-700">
                                 <UISmallParagraph>Accessibility</UISmallParagraph>
                             </li>
@@ -86,7 +83,9 @@ const HomeProjects = () => {
                         <a
                             href="https://www.crisalie.fr/"
                             target="_blank"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300"
+                            className={
+                                'flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 transition-all duration-300 ease-in-out hover:scale-110 hover:bg-neutral-700 focus:scale-110 focus:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300 dark:focus:bg-neutral-300'
+                            }
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50 dark:text-neutral-950" />
                             <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">
@@ -184,7 +183,9 @@ const HomeProjects = () => {
                         <a
                             href="https://quicktasks.up.railway.app/"
                             target="_blank"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300"
+                            className={
+                                'flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 transition-all duration-300 ease-in-out hover:scale-110 hover:bg-neutral-700 focus:scale-110 focus:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300 dark:focus:bg-neutral-300'
+                            }
                         >
                             <Globe strokeWidth={2} className="h-4 w-4 text-neutral-50 dark:text-neutral-950" />
                             <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">
@@ -195,7 +196,9 @@ const HomeProjects = () => {
                         <a
                             href="https://github.com/nathanEvrardDaCunha/quickTasks_front"
                             target="_blank"
-                            className="flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 hover:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300"
+                            className={
+                                'flex flex-row items-center gap-2 rounded-lg bg-neutral-950 px-2 py-1 transition-all duration-300 ease-in-out hover:scale-110 hover:bg-neutral-700 focus:scale-110 focus:bg-neutral-700 dark:bg-neutral-50 dark:hover:bg-neutral-300 dark:focus:bg-neutral-300'
+                            }
                         >
                             <UIGitHubIcon className="h-4 w-4 text-neutral-50 dark:text-neutral-950" />
                             <UISmallParagraph className="text-neutral-50 dark:text-neutral-950">

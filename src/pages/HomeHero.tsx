@@ -37,25 +37,37 @@ const HomeHero = () => {
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
                         <UILink
                             href={EvrardNathanResume}
-                            className="flex w-fit flex-row items-center gap-3 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-md hover:bg-neutral-300 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:bg-neutral-700"
+                            className={
+                                'flex w-fit flex-row items-center gap-3 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-2 shadow-md transition-all duration-300 ease-in-out hover:scale-110 hover:bg-neutral-300 focus:scale-110 focus:bg-neutral-300 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700'
+                            }
                         >
                             <UIParagraph>Resume</UIParagraph>
                             <FileDown className="h-4 w-4 text-neutral-950 dark:text-neutral-50" />
                         </UILink>
 
                         <div className="flex flex-row gap-4">
-                            <UILink href={'https://www.linkedin.com/in/nathan-evrard/'}>
-                                <UILinkedInIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300" />
+                            <UILink href={'https://www.linkedin.com/in/nathan-evrard/'} className={'group'}>
+                                <UILinkedInIcon
+                                    className={
+                                        'h-5 w-5 text-neutral-950 transition-all duration-300 ease-in-out group-focus:scale-110 group-focus:text-neutral-700 hover:scale-110 hover:text-neutral-700 dark:text-neutral-50 dark:group-focus:text-neutral-300 dark:hover:text-neutral-300'
+                                    }
+                                />
                             </UILink>
 
-                            <UILink href={'https://github.com/nathanEvrardDaCunha'}>
-                                <UIGitHubIcon className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300" />
+                            <UILink href={'https://github.com/nathanEvrardDaCunha'} className={'group'}>
+                                <UIGitHubIcon
+                                    className={
+                                        'h-5 w-5 text-neutral-950 transition-all duration-300 ease-in-out group-focus:scale-110 group-focus:text-neutral-700 hover:scale-110 hover:text-neutral-700 dark:text-neutral-50 dark:group-focus:text-neutral-300 dark:hover:text-neutral-300'
+                                    }
+                                />
                             </UILink>
 
-                            <UILink href={'mailto:nathan.evrarddacunha@proton.me'}>
+                            <UILink href={'mailto:nathan.evrarddacunha@proton.me'} className={'group'}>
                                 <Mail
                                     strokeWidth={2}
-                                    className="h-5 w-5 text-neutral-950 hover:text-neutral-700 dark:text-neutral-50 dark:hover:text-neutral-300"
+                                    className={
+                                        'h-5 w-5 text-neutral-950 transition-all duration-300 ease-in-out group-focus:scale-110 group-focus:text-neutral-700 hover:scale-110 hover:text-neutral-700 dark:text-neutral-50 dark:group-focus:text-neutral-300 dark:hover:text-neutral-300'
+                                    }
                                 />
                             </UILink>
                         </div>

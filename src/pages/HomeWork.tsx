@@ -19,7 +19,10 @@ const HomeWork = () => {
 
                 <div className="flex flex-col gap-8 rounded-lg border border-neutral-300 bg-neutral-50 px-4 py-4 shadow-md dark:border-neutral-700 dark:bg-neutral-950">
                     <article className="flex flex-row gap-5">
-                        <UILink href={'https://institutadios.com/'} className="z-10 aspect-square h-12 w-12">
+                        <UILink
+                            href={'https://institutadios.com/'}
+                            className="group z-10 aspect-square h-12 w-12 transition-all duration-300 ease-in-out hover:scale-110 focus:scale-110"
+                        >
                             <UITimelineLogo
                                 src={adiosLogo}
                                 alt={'Institut ADIOS business logo.'}
@@ -27,6 +30,9 @@ const HomeWork = () => {
                                 fetchPriority={'high'}
                                 width={48}
                                 height={48}
+                                className={
+                                    'transition-all duration-300 ease-in-out group-focus:opacity-85 hover:opacity-85'
+                                }
                             />
                         </UILink>
 
