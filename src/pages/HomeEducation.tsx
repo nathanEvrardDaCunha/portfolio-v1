@@ -8,6 +8,7 @@ import UIHeading3 from '../components/ui/headings/UIHeading3';
 import UISmallLightTime from '../components/ui/paragraphs/UISmallLightTime';
 import UISmallLightParagraph from '../components/ui/paragraphs/UISmallLightParagraph';
 import UILink from '../components/ui/UILink';
+import UIStrong from '../components/ui/paragraphs/UIStrong';
 
 const HomeEducation = () => {
     return (
@@ -50,19 +51,22 @@ const HomeEducation = () => {
                             <UIOutsideList>
                                 <li>
                                     <UIParagraph>
-                                        Developing and publishing full-stack applications using TypeScript, React,
-                                        Node.js, and Express.
+                                        <UIStrong>Full-stack architecture :</UIStrong> Mastery of the TypeScript
+                                        ecosystem with dynamic interfaces (React) and servers (Node.js/Express).
                                     </UIParagraph>
                                 </li>
+
                                 <li>
                                     <UIParagraph>
-                                        Designing, querying, and managing relational databases using SQL, PostgreSQL,
-                                        and MySQL.
+                                        <UIStrong>Data engineering :</UIStrong> Design, administration and querying of
+                                        relational databases (PostgreSQL, MySQL).
                                     </UIParagraph>
                                 </li>
+
                                 <li>
                                     <UIParagraph>
-                                        Deploying, collaborating, containerizing and versioning using GitHub and Docker.
+                                        <UIStrong>DevOps & Collaborative culture :</UIStrong> Versioning (Git/GitHub)
+                                        and setting up isolated environments with Docker.
                                     </UIParagraph>
                                 </li>
                             </UIOutsideList>

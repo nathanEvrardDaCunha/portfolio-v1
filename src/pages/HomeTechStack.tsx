@@ -19,6 +19,7 @@ import UITechs from '../components/blocks/tech-stack/UITechs';
 import UITech from '../components/blocks/tech-stack/UITech';
 import UIHeading3 from '../components/ui/headings/UIHeading3';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
+import UIViteIcon from '../components/icons/UIViteIcon';
 
 const HomeTechStack = () => {
     return (
@@ -129,6 +130,11 @@ const HomeTechStack = () => {
                     <UITech>
                         <UIDockerIcon />
                         <UIParagraph>Docker</UIParagraph>
+                    </UITech>
+
+                    <UITech>
+                        <UIViteIcon />
+                        <UIParagraph>Vite</UIParagraph>
                     </UITech>
 
                     <UITech>

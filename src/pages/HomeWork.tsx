@@ -8,6 +8,7 @@ import UIHeading3 from '../components/ui/headings/UIHeading3';
 import UISmallLightTime from '../components/ui/paragraphs/UISmallLightTime';
 import UISmallLightParagraph from '../components/ui/paragraphs/UISmallLightParagraph';
 import UILink from '../components/ui/UILink';
+import UIStrong from '../components/ui/paragraphs/UIStrong';
 
 const HomeWork = () => {
     return (
@@ -50,28 +51,23 @@ const HomeWork = () => {
                             <UIOutsideList>
                                 <li>
                                     <UIParagraph>
-                                        Designing an automated workflow using Zapier and JavaScript scripts to decrease
-                                        the secretariat's operational burden by 30%.
+                                        <UIStrong>Automation of workflows : </UIStrong>
+                                        Design of scripts (Zapier, JS) having reduced the operational burden of the
+                                        secretariat by 30%.
                                     </UIParagraph>
                                 </li>
 
                                 <li>
                                     <UIParagraph>
-                                        Developing an interactive form using Tally to enhance user experience and
-                                        completion rate.
+                                        <UIStrong>Engagement optimization : </UIStrong> Development of interactive forms
+                                        (Tally) improving the completion rate.
                                     </UIParagraph>
                                 </li>
 
                                 <li>
                                     <UIParagraph>
-                                        Redesigning WordPress articles visually and strategically integrating CTAs to
-                                        optimize conversion.
-                                    </UIParagraph>
-                                </li>
-
-                                <li>
-                                    <UIParagraph>
-                                        Mentoring of an intern on the company’s automation practices and workflows.
+                                        <UIStrong>Leadership : </UIStrong> Mentorship of a new collaborator on the
+                                        company’s automation practices and internal processes.
                                     </UIParagraph>
                                 </li>
                             </UIOutsideList>
