@@ -29,8 +29,8 @@ const HomeHero = () => {
                     <UIParagraph>22 years old frontend developer from France 🇫🇷</UIParagraph>
 
                     <UIParagraph>
-                        Specialized in the <UIStrong>JavaScript</UIStrong> ecosystem. I build front-end (and sometimes
-                        full-stack) applications using <UIStrong>TypeScript</UIStrong> and <UIStrong>React</UIStrong>.
+                        Specialized in the <UIStrong>JavaScript</UIStrong> ecosystem. I build front-end and full-stack
+                        applications using <UIStrong>TypeScript</UIStrong> and <UIStrong>React</UIStrong>.
                     </UIParagraph>
 
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
