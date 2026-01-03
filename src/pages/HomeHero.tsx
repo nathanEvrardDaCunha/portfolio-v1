@@ -1,7 +1,7 @@
 import { FileDown, Mail } from 'lucide-react';
 import UILinkedInIcon from '../components/icons/UILinkedInIcon';
 import UIGitHubIcon from '../components/icons/UIGitHubIcon';
-import protraitImage from '../../src/images/optimized/portrait.webp';
+import protraitImage from '../../src/images/optimized/selfie-pro.webp';
 import UIImage from '../components/ui/UIImage';
 import UIParagraph from '../components/ui/paragraphs/UIParagraph';
 import UIStrong from '../components/ui/paragraphs/UIStrong';
@@ -16,7 +16,7 @@ const HomeHero = () => {
                 <UIImage
                     src={protraitImage}
                     alt="Portrait of EVRARD Nathan."
-                    className="aspect-auto h-64 w-fit rounded-lg"
+                    className="aspect-auto h-64 w-48 shrink-0 rounded-lg object-cover"
                     loading={'eager'}
                     fetchPriority={'high'}
                     width={192}
